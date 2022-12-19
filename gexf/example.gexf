@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-12-18">
+    <creator>NetworkX 2.8.8</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="leaf" type="string" />
+      <attribute id="1" title="class" type="string" />
+      <attribute id="2" title="methodName" type="string" />
+      <attribute id="3" title="methodSignature" type="string" />
+      <attribute id="4" title="time" type="string" />
+      <attribute id="5" title="count" type="string" />
+      <attribute id="6" title="selfTime" type="string" />
+      <attribute id="7" title="lineNumber" type="string" />
+      <attribute id="8" title="percent" type="string" />
+    </attributes>
+    <nodes>
+      <node id="org.openjdk.jmh.util.InputStreamDrainer.run" label="org.openjdk.jmh.util.InputStreamDrainer.run">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="org.openjdk.jmh.util.InputStreamDrainer" />
+          <attvalue for="2" value="run" />
+          <attvalue for="3" value="()V" />
+          <attvalue for="4" value="173827507" />
+          <attvalue for="5" value="76" />
+          <attvalue for="6" value="867" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="40.5" />
+        </attvalues>
+      </node>
+      <node id="java.io.InputStream.read" label="java.io.InputStream.read">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.io.InputStream" />
+          <attvalue for="2" value="read" />
+          <attvalue for="3" value="([B)I" />
+          <attvalue for="4" value="173820418" />
+          <attvalue for="5" value="76" />
+          <attvalue for="6" value="173820418" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="40.5" />
+        </attvalues>
+      </node>
+      <node id="java.io.InputStream.close" label="java.io.InputStream.close">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.io.InputStream" />
+          <attvalue for="2" value="close" />
+          <attvalue for="3" value="()V" />
+          <attvalue for="4" value="5425" />
+          <attvalue for="5" value="76" />
+          <attvalue for="6" value="5425" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.util.List.iterator" label="java.util.List.iterator">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.util.List" />
+          <attvalue for="2" value="iterator" />
+          <attvalue for="3" value="()Ljava/util/Iterator;" />
+          <attvalue for="4" value="451" />
+          <attvalue for="5" value="76" />
+          <attvalue for="6" value="451" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.util.Iterator.hasNext" label="java.util.Iterator.hasNext">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.util.Iterator" />
+          <attvalue for="2" value="hasNext" />
+          <attvalue for="3" value="()Z" />
+          <attvalue for="4" value="132" />
+          <attvalue for="5" value="228" />
+          <attvalue for="6" value="132" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.io.OutputStream.flush" label="java.io.OutputStream.flush">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.io.OutputStream" />
+          <attvalue for="2" value="flush" />
+          <attvalue for="3" value="()V" />
+          <attvalue for="4" value="111" />
+          <attvalue for="5" value="152" />
+          <attvalue for="6" value="111" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.util.Iterator.next" label="java.util.Iterator.next">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.util.Iterator" />
+          <attvalue for="2" value="next" />
+          <attvalue for="3" value="()Ljava/lang/Object;" />
+          <attvalue for="4" value="103" />
+          <attvalue for="5" value="152" />
+          <attvalue for="6" value="103" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="org.openjdk.jmh.util.InputStreamDrainer.run" target="java.io.InputStream.read" id="0" />
+      <edge source="org.openjdk.jmh.util.InputStreamDrainer.run" target="java.io.InputStream.close" id="1" />
+      <edge source="org.openjdk.jmh.util.InputStreamDrainer.run" target="java.util.List.iterator" id="2" />
+      <edge source="org.openjdk.jmh.util.InputStreamDrainer.run" target="java.util.Iterator.hasNext" id="3" />
+      <edge source="org.openjdk.jmh.util.InputStreamDrainer.run" target="java.io.OutputStream.flush" id="4" />
+      <edge source="org.openjdk.jmh.util.InputStreamDrainer.run" target="java.util.Iterator.next" id="5" />
+    </edges>
+  </graph>
+</gexf>
