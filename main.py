@@ -30,7 +30,7 @@ def get_xml_files_from(dir):
 def get_trees_xml_files(in_dir_trees = IN_DIR_TREES, out_dir_graphs = OUT_DIR_GRAPHS, contain_subdir = False):
     trees_files_xml = get_xml_files_from(in_dir_trees)
     if contain_subdir:
-        for directory in [d for d in os.listdir(in_dir_trees) if '.' not in d]:
+        for directory in [d for d in os.listdir(in_dir_trees) if os.path.isdir(os.path.join(in_dir_trees, d))]:
             mkdir(f'{out_dir_graphs}/{directory}')
             directory_files = list(map(lambda t: f'{directory}/{t}',get_xml_files_from(f'{in_dir_trees}/{directory}')))
             trees_files_xml.extend(directory_files)

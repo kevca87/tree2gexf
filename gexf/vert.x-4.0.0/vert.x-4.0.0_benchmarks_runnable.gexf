@@ -26,7 +26,7 @@
           <attvalue for="5" value="76" />
           <attvalue for="6" value="867" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="40.5" />
+          <attvalue for="8" value="66.2" />
         </attvalues>
       </node>
       <node id="java.io.InputStream.read" label="java.io.InputStream.read">
@@ -39,7 +39,7 @@
           <attvalue for="5" value="76" />
           <attvalue for="6" value="173820418" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="40.5" />
+          <attvalue for="8" value="66.2" />
         </attvalues>
       </node>
       <node id="java.io.InputStream.close" label="java.io.InputStream.close">
@@ -113,11 +113,11 @@
           <attvalue for="1" value="org.openjdk.jmh.Main" />
           <attvalue for="2" value="main" />
           <attvalue for="3" value="([Ljava/lang/String;)V" />
-          <attvalue for="4" value="88451389" />
+          <attvalue for="4" value="88438698" />
           <attvalue for="5" value="1" />
           <attvalue for="6" value="4" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.6" />
+          <attvalue for="8" value="33.7" />
         </attvalues>
       </node>
       <node id="org.openjdk.jmh.runner.Runner.run" label="org.openjdk.jmh.runner.Runner.run">
@@ -126,11 +126,11 @@
           <attvalue for="1" value="org.openjdk.jmh.runner.Runner" />
           <attvalue for="2" value="run" />
           <attvalue for="3" value="()Ljava/util/Collection;" />
-          <attvalue for="4" value="88451385" />
+          <attvalue for="4" value="88438694" />
           <attvalue for="5" value="1" />
           <attvalue for="6" value="156" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.6" />
+          <attvalue for="8" value="33.7" />
         </attvalues>
       </node>
       <node id="org.openjdk.jmh.runner.Runner.internalRun" label="org.openjdk.jmh.runner.Runner.internalRun">
@@ -139,11 +139,11 @@
           <attvalue for="1" value="org.openjdk.jmh.runner.Runner" />
           <attvalue for="2" value="internalRun" />
           <attvalue for="3" value="()Ljava/util/Collection;" />
-          <attvalue for="4" value="88451124" />
+          <attvalue for="4" value="88438433" />
           <attvalue for="5" value="1" />
           <attvalue for="6" value="69" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.6" />
+          <attvalue for="8" value="33.7" />
         </attvalues>
       </node>
       <node id="org.openjdk.jmh.runner.Runner.runBenchmarks" label="org.openjdk.jmh.runner.Runner.runBenchmarks">
@@ -152,11 +152,11 @@
           <attvalue for="1" value="org.openjdk.jmh.runner.Runner" />
           <attvalue for="2" value="runBenchmarks" />
           <attvalue for="3" value="(Ljava/util/SortedSet;)Ljava/util/Collection;" />
-          <attvalue for="4" value="88451052" />
+          <attvalue for="4" value="88438361" />
           <attvalue for="5" value="1" />
           <attvalue for="6" value="2435" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.6" />
+          <attvalue for="8" value="33.7" />
         </attvalues>
       </node>
       <node id="org.openjdk.jmh.runner.Runner.runSeparate" label="org.openjdk.jmh.runner.Runner.runSeparate">
@@ -165,11 +165,11 @@
           <attvalue for="1" value="org.openjdk.jmh.runner.Runner" />
           <attvalue for="2" value="runSeparate" />
           <attvalue for="3" value="(Lorg/openjdk/jmh/runner/ActionPlan;)Lorg/openjdk/jmh/util/Multimap;" />
-          <attvalue for="4" value="88368075" />
+          <attvalue for="4" value="88355384" />
           <attvalue for="5" value="39" />
           <attvalue for="6" value="3203" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.6" />
+          <attvalue for="8" value="33.7" />
         </attvalues>
       </node>
       <node id="org.openjdk.jmh.runner.Runner.doFork" label="org.openjdk.jmh.runner.Runner.doFork">
@@ -182,7 +182,7 @@
           <attvalue for="5" value="39" />
           <attvalue for="6" value="6493" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.5" />
+          <attvalue for="8" value="33.6" />
         </attvalues>
       </node>
       <node id="java.lang.Process.waitFor" label="java.lang.Process.waitFor">
@@ -195,7 +195,7 @@
           <attvalue for="5" value="38" />
           <attvalue for="6" value="87922664" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.5" />
+          <attvalue for="8" value="33.5" />
         </attvalues>
       </node>
       <node id="java.lang.ProcessBuilder.start" label="java.lang.ProcessBuilder.start">
@@ -208,7 +208,7 @@
           <attvalue for="5" value="38" />
           <attvalue for="6" value="147981" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="8" value="0.1" />
         </attvalues>
       </node>
       <node id="java.io.FileOutputStream.&lt;init&gt;" label="java.io.FileOutputStream.&lt;init&gt;">
@@ -2167,7 +2167,7 @@
           <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer" />
           <attvalue for="2" value="&lt;init&gt;" />
           <attvalue for="3" value="(Lorg/openjdk/jmh/runner/options/Options;Lorg/openjdk/jmh/runner/format/OutputFormat;)V" />
-          <attvalue for="4" value="23632" />
+          <attvalue for="4" value="20476" />
           <attvalue for="5" value="38" />
           <attvalue for="6" value="4391" />
           <attvalue for="7" value="-1" />
@@ -2180,7 +2180,7 @@
           <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor" />
           <attvalue for="2" value="&lt;init&gt;" />
           <attvalue for="3" value="(Lorg/openjdk/jmh/runner/link/BinaryLinkServer;)V" />
-          <attvalue for="4" value="16963" />
+          <attvalue for="4" value="13807" />
           <attvalue for="5" value="38" />
           <attvalue for="6" value="166" />
           <attvalue for="7" value="-1" />
@@ -2193,9 +2193,9 @@
           <attvalue for="1" value="java.net.ServerSocket" />
           <attvalue for="2" value="&lt;init&gt;" />
           <attvalue for="3" value="(IILjava/net/InetAddress;)V" />
-          <attvalue for="4" value="13640" />
+          <attvalue for="4" value="10484" />
           <attvalue for="5" value="38" />
-          <attvalue for="6" value="13640" />
+          <attvalue for="6" value="10484" />
           <attvalue for="7" value="-1" />
           <attvalue for="8" value="0.0" />
         </attvalues>
@@ -2499,45 +2499,6 @@
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
-      <node id="org.openjdk.jmh.runner.link.BinaryLinkServer.terminate" label="org.openjdk.jmh.runner.link.BinaryLinkServer.terminate">
-        <attvalues>
-          <attvalue for="0" value="false" />
-          <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer" />
-          <attvalue for="2" value="terminate" />
-          <attvalue for="3" value="()V" />
-          <attvalue for="4" value="11109" />
-          <attvalue for="5" value="39" />
-          <attvalue for="6" value="6288" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close" label="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close">
-        <attvalues>
-          <attvalue for="0" value="false" />
-          <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor" />
-          <attvalue for="2" value="close" />
-          <attvalue for="3" value="()V" />
-          <attvalue for="4" value="145" />
-          <attvalue for="5" value="39" />
-          <attvalue for="6" value="89" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="java.net.ServerSocket.close" label="java.net.ServerSocket.close">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.net.ServerSocket" />
-          <attvalue for="2" value="close" />
-          <attvalue for="3" value="()V" />
-          <attvalue for="4" value="56" />
-          <attvalue for="5" value="39" />
-          <attvalue for="6" value="56" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
       <node id="org.openjdk.jmh.runner.Runner.getForkedMainCommand" label="org.openjdk.jmh.runner.Runner.getForkedMainCommand">
         <attvalues>
           <attvalue for="0" value="false" />
@@ -2729,6 +2690,45 @@
           <attvalue for="4" value="23" />
           <attvalue for="5" value="38" />
           <attvalue for="6" value="23" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="org.openjdk.jmh.runner.link.BinaryLinkServer.terminate" label="org.openjdk.jmh.runner.link.BinaryLinkServer.terminate">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer" />
+          <attvalue for="2" value="terminate" />
+          <attvalue for="3" value="()V" />
+          <attvalue for="4" value="1574" />
+          <attvalue for="5" value="39" />
+          <attvalue for="6" value="679" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close" label="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor" />
+          <attvalue for="2" value="close" />
+          <attvalue for="3" value="()V" />
+          <attvalue for="4" value="141" />
+          <attvalue for="5" value="39" />
+          <attvalue for="6" value="89" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.net.ServerSocket.close" label="java.net.ServerSocket.close">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.net.ServerSocket" />
+          <attvalue for="2" value="close" />
+          <attvalue for="3" value="()V" />
+          <attvalue for="4" value="52" />
+          <attvalue for="5" value="39" />
+          <attvalue for="6" value="52" />
           <attvalue for="7" value="-1" />
           <attvalue for="8" value="0.0" />
         </attvalues>
@@ -3877,147 +3877,17 @@
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
-      <node id="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" label="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run">
-        <attvalues>
-          <attvalue for="0" value="false" />
-          <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor" />
-          <attvalue for="2" value="run" />
-          <attvalue for="3" value="()V" />
-          <attvalue for="4" value="88324552" />
-          <attvalue for="5" value="39" />
-          <attvalue for="6" value="3850" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.6" />
-        </attvalues>
-      </node>
-      <node id="java.net.ServerSocket.accept" label="java.net.ServerSocket.accept">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.net.ServerSocket" />
-          <attvalue for="2" value="accept" />
-          <attvalue for="3" value="()Ljava/net/Socket;" />
-          <attvalue for="4" value="88313094" />
-          <attvalue for="5" value="76" />
-          <attvalue for="6" value="88313094" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="20.6" />
-        </attvalues>
-      </node>
-      <node id="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" label="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;">
-        <attvalues>
-          <attvalue for="0" value="false" />
-          <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler" />
-          <attvalue for="2" value="&lt;init&gt;" />
-          <attvalue for="3" value="(Lorg/openjdk/jmh/runner/link/BinaryLinkServer;Ljava/net/Socket;)V" />
-          <attvalue for="4" value="6977" />
-          <attvalue for="5" value="38" />
-          <attvalue for="6" value="380" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="java.io.ObjectOutputStream.flush" label="java.io.ObjectOutputStream.flush">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.io.ObjectOutputStream" />
-          <attvalue for="2" value="flush" />
-          <attvalue for="3" value="()V" />
-          <attvalue for="4" value="3579" />
-          <attvalue for="5" value="38" />
-          <attvalue for="6" value="3579" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="java.io.BufferedOutputStream.&lt;init&gt;" label="java.io.BufferedOutputStream.&lt;init&gt;">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.io.BufferedOutputStream" />
-          <attvalue for="2" value="&lt;init&gt;" />
-          <attvalue for="3" value="(Ljava/io/OutputStream;I)V" />
-          <attvalue for="4" value="1000" />
-          <attvalue for="5" value="38" />
-          <attvalue for="6" value="1000" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="java.net.Socket.getInputStream" label="java.net.Socket.getInputStream">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.net.Socket" />
-          <attvalue for="2" value="getInputStream" />
-          <attvalue for="3" value="()Ljava/io/InputStream;" />
-          <attvalue for="4" value="979" />
-          <attvalue for="5" value="38" />
-          <attvalue for="6" value="979" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="java.io.ObjectOutputStream.&lt;init&gt;" label="java.io.ObjectOutputStream.&lt;init&gt;">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.io.ObjectOutputStream" />
-          <attvalue for="2" value="&lt;init&gt;" />
-          <attvalue for="3" value="(Ljava/io/OutputStream;)V" />
-          <attvalue for="4" value="620" />
-          <attvalue for="5" value="38" />
-          <attvalue for="6" value="620" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="java.net.Socket.getOutputStream" label="java.net.Socket.getOutputStream">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.net.Socket" />
-          <attvalue for="2" value="getOutputStream" />
-          <attvalue for="3" value="()Ljava/io/OutputStream;" />
-          <attvalue for="4" value="431" />
-          <attvalue for="5" value="38" />
-          <attvalue for="6" value="431" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="java.util.concurrent.atomic.AtomicReference.compareAndSet" label="java.util.concurrent.atomic.AtomicReference.compareAndSet">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.util.concurrent.atomic.AtomicReference" />
-          <attvalue for="2" value="compareAndSet" />
-          <attvalue for="3" value="(Ljava/lang/Object;Ljava/lang/Object;)Z" />
-          <attvalue for="4" value="280" />
-          <attvalue for="5" value="38" />
-          <attvalue for="6" value="280" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
-      <node id="java.lang.Thread.interrupted" label="java.lang.Thread.interrupted">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.lang.Thread" />
-          <attvalue for="2" value="interrupted" />
-          <attvalue for="3" value="()Z" />
-          <attvalue for="4" value="206" />
-          <attvalue for="5" value="76" />
-          <attvalue for="6" value="206" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
       <node id="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" label="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run">
         <attvalues>
           <attvalue for="0" value="false" />
           <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler" />
           <attvalue for="2" value="run" />
           <attvalue for="3" value="()V" />
-          <attvalue for="4" value="79100901" />
+          <attvalue for="4" value="117329" />
           <attvalue for="5" value="39" />
-          <attvalue for="6" value="1574" />
+          <attvalue for="6" value="1538" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="18.4" />
+          <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
       <node id="java.io.ObjectInputStream.readObject" label="java.io.ObjectInputStream.readObject">
@@ -4026,11 +3896,11 @@
           <attvalue for="1" value="java.io.ObjectInputStream" />
           <attvalue for="2" value="readObject" />
           <attvalue for="3" value="()Ljava/lang/Object;" />
-          <attvalue for="4" value="79021020" />
+          <attvalue for="4" value="53896" />
           <attvalue for="5" value="348" />
-          <attvalue for="6" value="79020744" />
+          <attvalue for="6" value="53620" />
           <attvalue for="7" value="-1" />
-          <attvalue for="8" value="18.4" />
+          <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
       <node id="org.openjdk.jmh.infra.BenchmarkParamsL0.&lt;init&gt;" label="org.openjdk.jmh.infra.BenchmarkParamsL0.&lt;init&gt;">
@@ -4182,7 +4052,7 @@
           <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler" />
           <attvalue for="2" value="handleHandshake" />
           <attvalue for="3" value="(Lorg/openjdk/jmh/runner/link/HandshakeInitFrame;)V" />
-          <attvalue for="4" value="13286" />
+          <attvalue for="4" value="10518" />
           <attvalue for="5" value="38" />
           <attvalue for="6" value="392" />
           <attvalue for="7" value="-1" />
@@ -4198,6 +4068,19 @@
           <attvalue for="4" value="8081" />
           <attvalue for="5" value="38" />
           <attvalue for="6" value="8081" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.io.ObjectOutputStream.flush" label="java.io.ObjectOutputStream.flush">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.io.ObjectOutputStream" />
+          <attvalue for="2" value="flush" />
+          <attvalue for="3" value="()V" />
+          <attvalue for="4" value="175" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="175" />
           <attvalue for="7" value="-1" />
           <attvalue for="8" value="0.0" />
         </attvalues>
@@ -4234,7 +4117,7 @@
           <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler" />
           <attvalue for="2" value="handleInfra" />
           <attvalue for="3" value="(Lorg/openjdk/jmh/runner/link/InfraFrame;)V" />
-          <attvalue for="4" value="12105" />
+          <attvalue for="4" value="8704" />
           <attvalue for="5" value="38" />
           <attvalue for="6" value="343" />
           <attvalue for="7" value="-1" />
@@ -4280,26 +4163,13 @@
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
-      <node id="java.io.ObjectInputStream.&lt;init&gt;" label="java.io.ObjectInputStream.&lt;init&gt;">
-        <attvalues>
-          <attvalue for="0" value="true" />
-          <attvalue for="1" value="java.io.ObjectInputStream" />
-          <attvalue for="2" value="&lt;init&gt;" />
-          <attvalue for="3" value="(Ljava/io/InputStream;)V" />
-          <attvalue for="4" value="7506" />
-          <attvalue for="5" value="38" />
-          <attvalue for="6" value="7506" />
-          <attvalue for="7" value="-1" />
-          <attvalue for="8" value="0.0" />
-        </attvalues>
-      </node>
       <node id="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.close" label="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.close">
         <attvalues>
           <attvalue for="0" value="false" />
           <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler" />
           <attvalue for="2" value="close" />
           <attvalue for="3" value="()V" />
-          <attvalue for="4" value="4406" />
+          <attvalue for="4" value="1009" />
           <attvalue for="5" value="39" />
           <attvalue for="6" value="157" />
           <attvalue for="7" value="-1" />
@@ -4312,9 +4182,9 @@
           <attvalue for="1" value="java.net.Socket" />
           <attvalue for="2" value="close" />
           <attvalue for="3" value="()V" />
-          <attvalue for="4" value="4249" />
+          <attvalue for="4" value="852" />
           <attvalue for="5" value="39" />
-          <attvalue for="6" value="4249" />
+          <attvalue for="6" value="852" />
           <attvalue for="7" value="-1" />
           <attvalue for="8" value="0.0" />
         </attvalues>
@@ -4328,6 +4198,19 @@
           <attvalue for="4" value="808" />
           <attvalue for="5" value="38" />
           <attvalue for="6" value="808" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.io.ObjectInputStream.&lt;init&gt;" label="java.io.ObjectInputStream.&lt;init&gt;">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.io.ObjectInputStream" />
+          <attvalue for="2" value="&lt;init&gt;" />
+          <attvalue for="3" value="(Ljava/io/InputStream;)V" />
+          <attvalue for="4" value="660" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="660" />
           <attvalue for="7" value="-1" />
           <attvalue for="8" value="0.0" />
         </attvalues>
@@ -4380,6 +4263,123 @@
           <attvalue for="4" value="14" />
           <attvalue for="5" value="32" />
           <attvalue for="6" value="14" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" label="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor" />
+          <attvalue for="2" value="run" />
+          <attvalue for="3" value="()V" />
+          <attvalue for="4" value="17383" />
+          <attvalue for="5" value="39" />
+          <attvalue for="6" value="3850" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.net.ServerSocket.accept" label="java.net.ServerSocket.accept">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.net.ServerSocket" />
+          <attvalue for="2" value="accept" />
+          <attvalue for="3" value="()Ljava/net/Socket;" />
+          <attvalue for="4" value="8098" />
+          <attvalue for="5" value="76" />
+          <attvalue for="6" value="8098" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" label="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler" />
+          <attvalue for="2" value="&lt;init&gt;" />
+          <attvalue for="3" value="(Lorg/openjdk/jmh/runner/link/BinaryLinkServer;Ljava/net/Socket;)V" />
+          <attvalue for="4" value="4808" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="380" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.io.BufferedOutputStream.&lt;init&gt;" label="java.io.BufferedOutputStream.&lt;init&gt;">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.io.BufferedOutputStream" />
+          <attvalue for="2" value="&lt;init&gt;" />
+          <attvalue for="3" value="(Ljava/io/OutputStream;I)V" />
+          <attvalue for="4" value="1000" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="1000" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.net.Socket.getInputStream" label="java.net.Socket.getInputStream">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.net.Socket" />
+          <attvalue for="2" value="getInputStream" />
+          <attvalue for="3" value="()Ljava/io/InputStream;" />
+          <attvalue for="4" value="979" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="979" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.io.ObjectOutputStream.&lt;init&gt;" label="java.io.ObjectOutputStream.&lt;init&gt;">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.io.ObjectOutputStream" />
+          <attvalue for="2" value="&lt;init&gt;" />
+          <attvalue for="3" value="(Ljava/io/OutputStream;)V" />
+          <attvalue for="4" value="620" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="620" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.net.Socket.getOutputStream" label="java.net.Socket.getOutputStream">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.net.Socket" />
+          <attvalue for="2" value="getOutputStream" />
+          <attvalue for="3" value="()Ljava/io/OutputStream;" />
+          <attvalue for="4" value="431" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="431" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.util.concurrent.atomic.AtomicReference.compareAndSet" label="java.util.concurrent.atomic.AtomicReference.compareAndSet">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.util.concurrent.atomic.AtomicReference" />
+          <attvalue for="2" value="compareAndSet" />
+          <attvalue for="3" value="(Ljava/lang/Object;Ljava/lang/Object;)Z" />
+          <attvalue for="4" value="280" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="280" />
+          <attvalue for="7" value="-1" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="java.lang.Thread.interrupted" label="java.lang.Thread.interrupted">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="java.lang.Thread" />
+          <attvalue for="2" value="interrupted" />
+          <attvalue for="3" value="()Z" />
+          <attvalue for="4" value="206" />
+          <attvalue for="5" value="76" />
+          <attvalue for="6" value="206" />
           <attvalue for="7" value="-1" />
           <attvalue for="8" value="0.0" />
         </attvalues>
@@ -4456,8 +4456,8 @@
       <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.runner.link.BinaryLinkServer.&lt;init&gt;" id="67" />
       <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.runner.format.AbstractOutputFormat.println" id="68" />
       <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.runner.BaseRunner.etaBeforeBenchmark" id="69" />
-      <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.runner.link.BinaryLinkServer.terminate" id="70" />
-      <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.runner.Runner.getForkedMainCommand" id="71" />
+      <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.runner.Runner.getForkedMainCommand" id="70" />
+      <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.runner.link.BinaryLinkServer.terminate" id="71" />
       <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.results.RunResult.getAggregatedResult" id="72" />
       <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.util.DelegatingMultimap.put" id="73" />
       <edge source="org.openjdk.jmh.runner.Runner.runSeparate" target="org.openjdk.jmh.util.DelegatingMultimap.get" id="74" />
@@ -4857,25 +4857,25 @@
       <edge source="org.openjdk.jmh.runner.BaseRunner.formatDuration" target="java.util.concurrent.TimeUnit.toHours" id="468" />
       <edge source="org.openjdk.jmh.runner.BaseRunner.formatDuration" target="org.openjdk.jmh.runner.BaseRunner.etaAfterBenchmarks" id="469" />
       <edge source="java.lang.Long.valueOf" target="org.openjdk.jmh.results.format.TextResultFormat.writeOut" id="470" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer.terminate" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close" id="471" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close" target="java.net.ServerSocket.close" id="472" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" id="473" />
-      <edge source="org.openjdk.jmh.runner.Runner.getForkedMainCommand" target="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" id="474" />
-      <edge source="org.openjdk.jmh.runner.Runner.getForkedMainCommand" target="java.util.List.addAll" id="475" />
-      <edge source="org.openjdk.jmh.runner.Runner.getForkedMainCommand" target="org.openjdk.jmh.util.Utils.isWindows" id="476" />
-      <edge source="org.openjdk.jmh.runner.Runner.getForkedMainCommand" target="java.lang.Class.getName" id="477" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="java.io.File.exists" id="478" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="org.openjdk.jmh.runner.CompilerHints.isHintCompatibleVM" id="479" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="org.openjdk.jmh.runner.CompilerHints.removeCompileCommandFiles" id="480" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="java.io.File.&lt;init&gt;" id="481" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="org.openjdk.jmh.runner.CompilerHints.mergeHintFiles" id="482" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="java.util.List.size" id="483" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="org.openjdk.jmh.runner.CompilerHints.hintsFile" id="484" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.isHintCompatibleVM" target="java.lang.String.contains" id="485" />
-      <edge source="java.lang.String.contains" target="org.openjdk.jmh.util.Utils.isWindows" id="486" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.removeCompileCommandFiles" target="java.lang.String.startsWith" id="487" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.mergeHintFiles" target="java.util.List.get" id="488" />
-      <edge source="org.openjdk.jmh.runner.CompilerHints.mergeHintFiles" target="java.util.List.size" id="489" />
+      <edge source="org.openjdk.jmh.runner.Runner.getForkedMainCommand" target="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" id="471" />
+      <edge source="org.openjdk.jmh.runner.Runner.getForkedMainCommand" target="java.util.List.addAll" id="472" />
+      <edge source="org.openjdk.jmh.runner.Runner.getForkedMainCommand" target="org.openjdk.jmh.util.Utils.isWindows" id="473" />
+      <edge source="org.openjdk.jmh.runner.Runner.getForkedMainCommand" target="java.lang.Class.getName" id="474" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="java.io.File.exists" id="475" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="org.openjdk.jmh.runner.CompilerHints.isHintCompatibleVM" id="476" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="org.openjdk.jmh.runner.CompilerHints.removeCompileCommandFiles" id="477" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="java.io.File.&lt;init&gt;" id="478" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="org.openjdk.jmh.runner.CompilerHints.mergeHintFiles" id="479" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="java.util.List.size" id="480" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.addCompilerHints" target="org.openjdk.jmh.runner.CompilerHints.hintsFile" id="481" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.isHintCompatibleVM" target="java.lang.String.contains" id="482" />
+      <edge source="java.lang.String.contains" target="org.openjdk.jmh.util.Utils.isWindows" id="483" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.removeCompileCommandFiles" target="java.lang.String.startsWith" id="484" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.mergeHintFiles" target="java.util.List.get" id="485" />
+      <edge source="org.openjdk.jmh.runner.CompilerHints.mergeHintFiles" target="java.util.List.size" id="486" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer.terminate" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close" id="487" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close" target="java.net.ServerSocket.close" id="488" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.close" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" id="489" />
       <edge source="org.openjdk.jmh.results.RunResult.getAggregatedResult" target="org.openjdk.jmh.results.BenchmarkResult.&lt;init&gt;" id="490" />
       <edge source="org.openjdk.jmh.results.RunResult.getAggregatedResult" target="org.openjdk.jmh.results.BenchmarkResult.getIterationResults" id="491" />
       <edge source="org.openjdk.jmh.results.RunResult.getAggregatedResult" target="org.openjdk.jmh.results.BenchmarkResult.getBenchmarkResults" id="492" />
@@ -4944,47 +4944,47 @@
       <edge source="java.io.PrintStream.flush" target="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" id="555" />
       <edge source="java.io.PrintStream.flush" target="org.openjdk.jmh.runner.format.TextReportFormat.iteration" id="556" />
       <edge source="org.openjdk.jmh.util.FileUtils.safelyClose" target="java.io.Closeable.close" id="557" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" target="java.net.ServerSocket.accept" id="558" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" id="559" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" target="java.util.concurrent.atomic.AtomicReference.compareAndSet" id="560" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" target="java.lang.Thread.interrupted" id="561" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.io.ObjectOutputStream.flush" id="562" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.io.BufferedOutputStream.&lt;init&gt;" id="563" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.net.Socket.getInputStream" id="564" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.io.ObjectOutputStream.&lt;init&gt;" id="565" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.net.Socket.getOutputStream" id="566" />
-      <edge source="java.io.ObjectOutputStream.flush" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" id="567" />
-      <edge source="java.io.ObjectOutputStream.flush" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" id="568" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="java.io.ObjectInputStream.readObject" id="569" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleOutputFormat" id="570" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" id="571" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" id="572" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="java.io.ObjectInputStream.&lt;init&gt;" id="573" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.close" id="574" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="java.io.BufferedInputStream.&lt;init&gt;" id="575" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResults" id="576" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResultMetadata" id="577" />
-      <edge source="java.io.ObjectInputStream.readObject" target="org.openjdk.jmh.infra.BenchmarkParamsL0.&lt;init&gt;" id="578" />
-      <edge source="java.io.ObjectInputStream.readObject" target="org.openjdk.jmh.infra.IterationParamsL0.&lt;init&gt;" id="579" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleOutputFormat" target="java.util.Set.contains" id="580" />
-      <edge source="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" target="org.openjdk.jmh.results.Result.toString" id="581" />
-      <edge source="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" target="org.openjdk.jmh.infra.IterationParams.getType" id="582" />
-      <edge source="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" target="java.lang.Integer.valueOf" id="583" />
-      <edge source="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" target="java.util.Map.isEmpty" id="584" />
-      <edge source="org.openjdk.jmh.infra.IterationParams.getType" target="org.openjdk.jmh.infra.IterationParamsL2.getType" id="585" />
-      <edge source="org.openjdk.jmh.infra.IterationParams.getType" target="org.openjdk.jmh.runner.format.TextReportFormat.iteration" id="586" />
-      <edge source="java.lang.Integer.valueOf" target="org.openjdk.jmh.runner.format.TextReportFormat.iteration" id="587" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" target="java.io.ObjectOutputStream.writeObject" id="588" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" target="org.openjdk.jmh.runner.link.HandshakeInitFrame.getPid" id="589" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" target="org.openjdk.jmh.runner.link.HandshakeResponseFrame.&lt;init&gt;" id="590" />
-      <edge source="java.io.ObjectOutputStream.writeObject" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" id="591" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" target="java.util.concurrent.atomic.AtomicReference.get" id="592" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" target="org.openjdk.jmh.runner.link.ActionPlanFrame.&lt;init&gt;" id="593" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" target="org.openjdk.jmh.runner.link.InfraFrame.getType" id="594" />
-      <edge source="java.util.concurrent.atomic.AtomicReference.get" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResults" id="595" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.close" target="java.net.Socket.close" id="596" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResults" target="org.openjdk.jmh.runner.link.ResultsFrame.getRes" id="597" />
-      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResultMetadata" target="org.openjdk.jmh.runner.link.ResultMetadataFrame.getMD" id="598" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="java.io.ObjectInputStream.readObject" id="558" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleOutputFormat" id="559" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" id="560" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" id="561" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.close" id="562" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="java.io.BufferedInputStream.&lt;init&gt;" id="563" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="java.io.ObjectInputStream.&lt;init&gt;" id="564" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResults" id="565" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResultMetadata" id="566" />
+      <edge source="java.io.ObjectInputStream.readObject" target="org.openjdk.jmh.infra.BenchmarkParamsL0.&lt;init&gt;" id="567" />
+      <edge source="java.io.ObjectInputStream.readObject" target="org.openjdk.jmh.infra.IterationParamsL0.&lt;init&gt;" id="568" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleOutputFormat" target="java.util.Set.contains" id="569" />
+      <edge source="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" target="org.openjdk.jmh.results.Result.toString" id="570" />
+      <edge source="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" target="org.openjdk.jmh.infra.IterationParams.getType" id="571" />
+      <edge source="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" target="java.lang.Integer.valueOf" id="572" />
+      <edge source="org.openjdk.jmh.runner.format.TextReportFormat.iterationResult" target="java.util.Map.isEmpty" id="573" />
+      <edge source="org.openjdk.jmh.infra.IterationParams.getType" target="org.openjdk.jmh.infra.IterationParamsL2.getType" id="574" />
+      <edge source="org.openjdk.jmh.infra.IterationParams.getType" target="org.openjdk.jmh.runner.format.TextReportFormat.iteration" id="575" />
+      <edge source="java.lang.Integer.valueOf" target="org.openjdk.jmh.runner.format.TextReportFormat.iteration" id="576" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" target="java.io.ObjectOutputStream.writeObject" id="577" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" target="java.io.ObjectOutputStream.flush" id="578" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" target="org.openjdk.jmh.runner.link.HandshakeInitFrame.getPid" id="579" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleHandshake" target="org.openjdk.jmh.runner.link.HandshakeResponseFrame.&lt;init&gt;" id="580" />
+      <edge source="java.io.ObjectOutputStream.writeObject" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" id="581" />
+      <edge source="java.io.ObjectOutputStream.flush" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" id="582" />
+      <edge source="java.io.ObjectOutputStream.flush" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" id="583" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" target="java.util.concurrent.atomic.AtomicReference.get" id="584" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" target="org.openjdk.jmh.runner.link.ActionPlanFrame.&lt;init&gt;" id="585" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleInfra" target="org.openjdk.jmh.runner.link.InfraFrame.getType" id="586" />
+      <edge source="java.util.concurrent.atomic.AtomicReference.get" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResults" id="587" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.close" target="java.net.Socket.close" id="588" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResults" target="org.openjdk.jmh.runner.link.ResultsFrame.getRes" id="589" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleResultMetadata" target="org.openjdk.jmh.runner.link.ResultMetadataFrame.getMD" id="590" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" target="java.net.ServerSocket.accept" id="591" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" target="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" id="592" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" target="java.util.concurrent.atomic.AtomicReference.compareAndSet" id="593" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Acceptor.run" target="java.lang.Thread.interrupted" id="594" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.io.BufferedOutputStream.&lt;init&gt;" id="595" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.net.Socket.getInputStream" id="596" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.io.ObjectOutputStream.&lt;init&gt;" id="597" />
+      <edge source="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.&lt;init&gt;" target="java.net.Socket.getOutputStream" id="598" />
     </edges>
   </graph>
 </gexf>

@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree type="Call Tree" threadSelection="All thread groups" threadStatus="All states" aggregationLevel="Methods">
+  <node leaf="false" class="org.openjdk.jmh.runner.link.BinaryLinkServer$Handler" methodName="run" methodSignature="()V" time="2239060" count="1" selfTime="2223901" lineNumber="-1" percent="96.4">
+    <node leaf="false" class="sun.util.logging.PlatformLogger" methodName="getLogger" methodSignature="(Ljava/lang/String;)Lsun/util/logging/PlatformLogger;" time="3966" count="1" selfTime="3" lineNumber="-1" percent="0.2">
+      <node leaf="false" class="sun.util.logging.PlatformLogger" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="3951" count="1" selfTime="35" lineNumber="-1" percent="0.2">
+        <node leaf="false" class="sun.util.logging.PlatformLogger$DefaultLoggerProxy" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="2877" count="1" selfTime="908" lineNumber="-1" percent="0.1">
+          <node leaf="false" class="sun.util.calendar.CalendarSystem" methodName="&lt;clinit&gt;" methodSignature="()V" time="1956" count="1" selfTime="1934" lineNumber="-1" percent="0.1">
+            <node leaf="false" class="sun.util.calendar.BaseCalendar" methodName="&lt;clinit&gt;" methodSignature="()V" time="13" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="sun.util.calendar.Gregorian" methodName="&lt;init&gt;" methodSignature="()V" time="9" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.util.calendar.BaseCalendar" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.util.calendar.AbstractCalendar" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="sun.util.calendar.CalendarSystem" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node leaf="true" class="java.util.Date" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.util.logging.PlatformLogger$DefaultLoggerProxy" methodName="deriveEffectiveLevel" methodSignature="(Lsun/util/logging/PlatformLogger$Level;)Lsun/util/logging/PlatformLogger$Level;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.util.logging.PlatformLogger$LoggerProxy" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.util.calendar.CalendarSystem" methodName="getGregorianCalendar" methodSignature="()Lsun/util/calendar/Gregorian;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="sun.util.logging.PlatformLogger$DefaultLoggerProxy" methodName="&lt;clinit&gt;" methodSignature="()V" time="1039" count="1" selfTime="467" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.logging.LoggingSupport" methodName="&lt;clinit&gt;" methodSignature="()V" time="443" count="1" selfTime="180" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="260" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.util.logging.LoggingSupport$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="255" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.util.logging.LoggingSupport$1" methodName="run" methodSignature="()Lsun/util/logging/LoggingProxy;" time="253" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.lang.Class" methodName="forName" methodSignature="(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;" time="214" count="1" selfTime="214" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.lang.Class" methodName="getDeclaredField" methodSignature="(Ljava/lang/String;)Ljava/lang/reflect/Field;" time="15" count="1" selfTime="15" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.lang.reflect.Field" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="12" count="1" selfTime="12" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.lang.reflect.Field" methodName="setAccessible" methodSignature="(Z)V" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+            <node leaf="true" class="sun.util.logging.LoggingSupport$1" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="sun.util.logging.LoggingSupport" methodName="getSimpleFormat" methodSignature="(Z)Ljava/lang/String;" time="129" count="1" selfTime="114" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="12" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.util.logging.LoggingSupport$2" methodName="run" methodSignature="()Ljava/lang/Object;" time="8" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.util.logging.LoggingSupport$2" methodName="run" methodSignature="()Ljava/lang/String;" time="7" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+            <node leaf="true" class="sun.util.logging.LoggingSupport$2" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+      </node>
+      <node leaf="true" class="java.util.Map" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.Map" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.ref.WeakReference" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/Object;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="isSamePackage" methodSignature="(Ljava/lang/Class;Ljava/lang/Class;)Z" time="2528" count="408" selfTime="1409" lineNumber="-1" percent="0.1">
+      <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="794" count="8544" selfTime="794" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="getClassLoader" methodSignature="()Ljava/lang/ClassLoader;" time="114" count="576" selfTime="114" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.String" methodName="lastIndexOf" methodSignature="(I)I" time="107" count="576" selfTime="107" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="104" count="576" selfTime="104" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="unparse" methodSignature="(Ljava/lang/invoke/MethodType;)Ljava/lang/String;" time="1747" count="63" selfTime="108" lineNumber="-1" percent="0.1">
+      <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="unparseMethod" methodSignature="(Ljava/lang/Class;Ljava/util/List;)Ljava/lang/String;" time="1639" count="63" selfTime="240" lineNumber="-1" percent="0.1">
+        <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="unparseSig" methodSignature="(Ljava/lang/Class;Ljava/lang/StringBuilder;)V" time="1087" count="325" selfTime="439" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forBasicType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="302" count="325" selfTime="127" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forPrimitiveType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="124" count="46" selfTime="37" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.invoke.util.Wrapper" methodName="findPrimitiveType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="87" count="46" selfTime="27" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.invoke.util.Wrapper" methodName="hashPrim" methodSignature="(Ljava/lang/Class;)I" time="60" count="46" selfTime="33" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="10" count="46" selfTime="10" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="9" count="92" selfTime="9" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="8" count="46" selfTime="8" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+            <node leaf="true" class="java.lang.Class" methodName="isPrimitive" methodSignature="()Z" time="51" count="325" selfTime="51" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="sun.invoke.util.Wrapper" methodName="basicTypeChar" methodSignature="()C" time="71" count="325" selfTime="71" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(C)Ljava/lang/StringBuilder;" time="66" count="602" selfTime="66" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.String" methodName="replace" methodSignature="(CC)Ljava/lang/String;" time="62" count="279" selfTime="62" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="59" count="279" selfTime="59" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.Class" methodName="isArray" methodSignature="()Z" time="58" count="279" selfTime="58" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="30" count="279" selfTime="30" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.util.Iterator" methodName="hasNext" methodSignature="()Z" time="131" count="325" selfTime="131" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.Iterator" methodName="next" methodSignature="()Ljava/lang/Object;" time="63" count="262" selfTime="63" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.List" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="54" count="63" selfTime="54" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(C)Ljava/lang/StringBuilder;" time="30" count="126" selfTime="30" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="20" count="63" selfTime="20" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="14" count="63" selfTime="14" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="false" class="sun.util.logging.PlatformLogger" methodName="&lt;clinit&gt;" methodSignature="()V" time="1383" count="1" selfTime="498" lineNumber="-1" percent="0.1">
+      <node leaf="true" class="java.lang.Class" methodName="forName" methodSignature="(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;" time="813" count="2" selfTime="813" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.util.logging.PlatformLogger$Level" methodName="&lt;clinit&gt;" methodSignature="()V" time="40" count="1" selfTime="30" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.util.logging.PlatformLogger$Level" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="10" count="9" selfTime="6" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.Enum" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="4" count="9" selfTime="4" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="19" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.util.logging.PlatformLogger$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="13" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.logging.PlatformLogger$1" methodName="run" methodSignature="()Ljava/lang/Boolean;" time="12" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.Boolean" methodName="valueOf" methodSignature="(Z)Ljava/lang/Boolean;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+      </node>
+      <node leaf="true" class="java.util.HashMap" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="getClassLoader" methodSignature="()Ljava/lang/ClassLoader;" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.util.logging.PlatformLogger$1" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Boolean" methodName="booleanValue" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.Wrapper" methodName="&lt;clinit&gt;" methodSignature="()V" time="1359" count="1" selfTime="479" lineNumber="-1" percent="0.1">
+      <node leaf="true" class="java.lang.Short" methodName="valueOf" methodSignature="(S)Ljava/lang/Short;" time="401" count="1" selfTime="401" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Byte" methodName="valueOf" methodSignature="(B)Ljava/lang/Byte;" time="275" count="1" selfTime="275" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.invoke.util.Wrapper" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;CLjava/lang/Object;Ljava/lang/Object;I)V" time="81" count="10" selfTime="15" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.Class" methodName="getSimpleName" methodSignature="()Ljava/lang/String;" time="61" count="20" selfTime="61" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Enum" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="5" count="10" selfTime="5" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.invoke.util.Wrapper" methodName="hashPrim" methodSignature="(Ljava/lang/Class;)I" time="38" count="10" selfTime="24" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="7" count="20" selfTime="7" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="4" count="10" selfTime="4" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="3" count="10" selfTime="3" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.invoke.util.Wrapper" methodName="hashWrap" methodSignature="(Ljava/lang/Class;)I" time="26" count="10" selfTime="17" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="4" count="20" selfTime="4" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="3" count="10" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="2" count="10" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.lang.Float" methodName="valueOf" methodSignature="(F)Ljava/lang/Float;" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.invoke.util.Wrapper$Format" methodName="&lt;clinit&gt;" methodSignature="()V" time="8" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.lang.Double" methodName="valueOf" methodSignature="(D)Ljava/lang/Double;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.invoke.util.Wrapper" methodName="values" methodSignature="()[Lsun/invoke/util/Wrapper;" time="6" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="[Lsun.invoke.util.Wrapper;" methodName="clone" methodSignature="()Ljava/lang/Object;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.invoke.util.Wrapper$Format" methodName="signed" methodSignature="(I)I" time="5" count="4" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.invoke.util.Wrapper$Format" methodName="format" methodSignature="(III)I" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.lang.Character" methodName="valueOf" methodSignature="(C)Ljava/lang/Character;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Long" methodName="valueOf" methodSignature="(J)Ljava/lang/Long;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.invoke.util.Wrapper" methodName="hashChar" methodSignature="(C)I" time="3" count="10" selfTime="3" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.invoke.util.Wrapper$Format" methodName="floating" methodSignature="(I)I" time="3" count="2" selfTime="2" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.invoke.util.Wrapper$Format" methodName="format" methodSignature="(III)I" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.invoke.util.Wrapper$Format" methodName="unsigned" methodSignature="(I)I" time="3" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.invoke.util.Wrapper$Format" methodName="format" methodSignature="(III)I" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.lang.Boolean" methodName="valueOf" methodSignature="(Z)Ljava/lang/Boolean;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Integer" methodName="valueOf" methodSignature="(I)Ljava/lang/Integer;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.invoke.util.Wrapper$Format" methodName="other" methodSignature="(I)I" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="parseMethod" methodSignature="(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/util/List;" time="966" count="40" selfTime="42" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="parseMethod" methodSignature="(Ljava/lang/String;IILjava/lang/ClassLoader;)Ljava/util/List;" time="907" count="40" selfTime="167" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="parseSig" methodSignature="(Ljava/lang/String;[IILjava/lang/ClassLoader;)Ljava/lang/Class;" time="613" count="120" selfTime="110" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.ClassLoader" methodName="loadClass" methodSignature="(Ljava/lang/String;)Ljava/lang/Class;" time="285" count="81" selfTime="285" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="parseSig" methodSignature="(Ljava/lang/String;[IILjava/lang/ClassLoader;)Ljava/lang/Class;" time="90" count="23" selfTime="24" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.ClassLoader" methodName="loadClass" methodSignature="(Ljava/lang/String;)Ljava/lang/Class;" time="49" count="21" selfTime="49" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.String" methodName="replace" methodSignature="(CC)Ljava/lang/String;" time="5" count="21" selfTime="5" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="4" count="23" selfTime="4" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.String" methodName="indexOf" methodSignature="(II)I" time="3" count="21" selfTime="3" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.String" methodName="substring" methodSignature="(II)Ljava/lang/String;" time="2" count="21" selfTime="2" lineNumber="-1" percent="0.0"/>
+            <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forBasicType" methodSignature="(C)Lsun/invoke/util/Wrapper;" time="2" count="2" selfTime="0" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="sun.invoke.util.Wrapper" methodName="hashChar" methodSignature="(C)I" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="sun.invoke.util.Wrapper" methodName="primitiveType" methodSignature="()Ljava/lang/Class;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.lang.String" methodName="substring" methodSignature="(II)Ljava/lang/String;" time="31" count="81" selfTime="31" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.String" methodName="indexOf" methodSignature="(II)I" time="18" count="81" selfTime="18" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.reflect.Array" methodName="newInstance" methodSignature="(Ljava/lang/Class;I)Ljava/lang/Object;" time="17" count="23" selfTime="17" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forBasicType" methodSignature="(C)Lsun/invoke/util/Wrapper;" time="17" count="16" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="sun.invoke.util.Wrapper" methodName="hashChar" methodSignature="(C)I" time="11" count="16" selfTime="11" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="15" count="120" selfTime="15" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.String" methodName="replace" methodSignature="(CC)Ljava/lang/String;" time="15" count="81" selfTime="15" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.Object" methodName="getClass" methodSignature="()Ljava/lang/Class;" time="12" count="23" selfTime="12" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.invoke.util.Wrapper" methodName="primitiveType" methodSignature="()Ljava/lang/Class;" time="3" count="16" selfTime="3" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.util.ArrayList" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="67" count="120" selfTime="67" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.ClassLoader" methodName="getSystemClassLoader" methodSignature="()Ljava/lang/ClassLoader;" time="25" count="40" selfTime="25" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="19" count="160" selfTime="19" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="16" count="40" selfTime="16" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="17" count="40" selfTime="17" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="isTypeVisible" methodSignature="(Ljava/lang/invoke/MethodType;Ljava/lang/Class;)Z" time="792" count="74" selfTime="245" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="isTypeVisible" methodSignature="(Ljava/lang/Class;Ljava/lang/Class;)Z" time="547" count="449" selfTime="353" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.Class" methodName="isArray" methodSignature="()Z" time="87" count="488" selfTime="87" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Class" methodName="isPrimitive" methodSignature="()Z" time="58" count="448" selfTime="58" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Class" methodName="getClassLoader" methodSignature="()Ljava/lang/ClassLoader;" time="33" count="166" selfTime="33" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Class" methodName="getComponentType" methodSignature="()Ljava/lang/Class;" time="16" count="40" selfTime="16" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="false" class="sun.security.util.SecurityConstants" methodName="&lt;clinit&gt;" methodSignature="()V" time="713" count="1" selfTime="643" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.net.SocketPermission" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="53" count="1" selfTime="53" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.net.NetPermission" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="6" count="8" selfTime="6" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.security.AllPermission" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.security.SecurityPermission" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="4" count="3" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.RuntimePermission" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyType" methodName="isNullConversion" methodSignature="(Ljava/lang/Class;Ljava/lang/Class;Z)Z" time="473" count="468" selfTime="229" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="sun.invoke.util.VerifyType" methodName="isNullType" methodSignature="(Ljava/lang/Class;)Z" time="147" count="102" selfTime="147" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="isInterface" methodSignature="()Z" time="50" count="194" selfTime="50" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="isAssignableFrom" methodSignature="(Ljava/lang/Class;)Z" time="26" count="102" selfTime="26" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="isPrimitive" methodSignature="()Z" time="21" count="102" selfTime="21" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forPrimitiveType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="341" count="104" selfTime="116" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.Wrapper" methodName="findPrimitiveType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="225" count="104" selfTime="64" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.invoke.util.Wrapper" methodName="hashPrim" methodSignature="(Ljava/lang/Class;)I" time="161" count="104" selfTime="77" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="35" count="208" selfTime="35" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="29" count="104" selfTime="29" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="20" count="104" selfTime="20" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+    </node>
+    <node leaf="true" class="sun.invoke.util.Wrapper" methodName="stackSlots" methodSignature="()I" time="201" count="483" selfTime="201" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="sun.invoke.util.Wrapper" methodName="isSubwordOrInt" methodSignature="()Z" time="126" count="66" selfTime="46" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.Wrapper" methodName="isIntegral" methodSignature="()Z" time="70" count="66" selfTime="57" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.invoke.util.Wrapper" methodName="isNumeric" methodSignature="()Z" time="13" count="66" selfTime="13" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="sun.invoke.util.Wrapper" methodName="isSingleWord" methodSignature="()Z" time="10" count="44" selfTime="10" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="unparse" methodSignature="(Ljava/lang/Class;)Ljava/lang/String;" time="115" count="24" selfTime="19" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.BytecodeDescriptor" methodName="unparseSig" methodSignature="(Ljava/lang/Class;Ljava/lang/StringBuilder;)V" time="87" count="24" selfTime="39" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forBasicType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="18" count="24" selfTime="13" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.Class" methodName="isPrimitive" methodSignature="()Z" time="5" count="24" selfTime="5" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="9" count="24" selfTime="9" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(C)Ljava/lang/StringBuilder;" time="7" count="48" selfTime="7" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.String" methodName="replace" methodSignature="(CC)Ljava/lang/String;" time="5" count="24" selfTime="5" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="sun.invoke.util.Wrapper" methodName="basicTypeChar" methodSignature="()C" time="4" count="24" selfTime="4" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Class" methodName="isArray" methodSignature="()Z" time="3" count="24" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="2" count="24" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="24" selfTime="6" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="3" count="24" selfTime="3" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.util.locale.provider.DecimalFormatSymbolsProviderImpl" methodName="getInstance" methodSignature="(Ljava/util/Locale;)Ljava/text/DecimalFormatSymbols;" time="80" count="6" selfTime="3" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="java.text.DecimalFormatSymbols" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Locale;)V" time="77" count="6" selfTime="44" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.util.locale.provider.LocaleResources" methodName="getDecimalFormatSymbolsData" methodSignature="()[Ljava/lang/Object;" time="18" count="6" selfTime="9" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.locale.provider.LocaleResources" methodName="removeEmptyReferences" methodSignature="()V" time="7" count="6" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.ref.ReferenceQueue" methodName="poll" methodSignature="()Ljava/lang/ref/Reference;" time="1" count="6" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="2" count="6" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="getAdapter" methodSignature="(Ljava/lang/Class;Ljava/util/Locale;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="11" count="6" selfTime="7" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="4" count="12" selfTime="4" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLocaleResources" methodSignature="(Ljava/util/Locale;)Lsun/util/locale/provider/LocaleResources;" time="4" count="6" selfTime="1" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="3" count="6" selfTime="3" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="isClassAccessible" methodSignature="(Ljava/lang/Class;Ljava/lang/Class;I)Z" time="64" count="7" selfTime="11" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="getClassModifiers" methodSignature="(Ljava/lang/Class;)I" time="48" count="7" selfTime="6" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.Class" methodName="isArray" methodSignature="()Z" time="35" count="7" selfTime="35" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="sun.reflect.Reflection" methodName="getClassAccessFlags" methodSignature="(Ljava/lang/Class;)I" time="4" count="7" selfTime="4" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Class" methodName="isPrimitive" methodSignature="()Z" time="3" count="7" selfTime="3" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.lang.reflect.Modifier" methodName="isPublic" methodSignature="(I)Z" time="5" count="7" selfTime="5" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="isTypeVisible" methodSignature="(Ljava/lang/Class;Ljava/lang/Class;)Z" time="37" count="10" selfTime="25" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.Class" methodName="isPrimitive" methodSignature="()Z" time="8" count="10" selfTime="8" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="isArray" methodSignature="()Z" time="4" count="10" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="isMemberAccessible" methodSignature="(Ljava/lang/Class;Ljava/lang/Class;ILjava/lang/Class;I)Z" time="32" count="8" selfTime="11" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="isClassAccessible" methodSignature="(Ljava/lang/Class;Ljava/lang/Class;I)Z" time="21" count="8" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="getClassModifiers" methodSignature="(Ljava/lang/Class;)I" time="14" count="8" selfTime="5" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.Class" methodName="isArray" methodSignature="()Z" time="4" count="8" selfTime="4" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.Class" methodName="isPrimitive" methodSignature="()Z" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.reflect.Reflection" methodName="getClassAccessFlags" methodSignature="(Ljava/lang/Class;)I" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.lang.reflect.Modifier" methodName="isPublic" methodSignature="(I)Z" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forBasicType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="31" count="11" selfTime="10" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forPrimitiveType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="17" count="6" selfTime="1" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.invoke.util.Wrapper" methodName="findPrimitiveType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="16" count="6" selfTime="4" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.invoke.util.Wrapper" methodName="hashPrim" methodSignature="(Ljava/lang/Class;)I" time="12" count="6" selfTime="5" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="3" count="6" selfTime="3" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="2" count="12" selfTime="2" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="2" count="6" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+      </node>
+      <node leaf="true" class="java.lang.Class" methodName="isPrimitive" methodSignature="()Z" time="4" count="11" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.Wrapper" methodName="values" methodSignature="()[Lsun/invoke/util/Wrapper;" time="31" count="7" selfTime="9" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="[Lsun.invoke.util.Wrapper;" methodName="clone" methodSignature="()Ljava/lang/Object;" time="22" count="7" selfTime="22" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyType" methodName="isNullReferenceConversion" methodSignature="(Ljava/lang/Class;Ljava/lang/Class;)Z" time="26" count="11" selfTime="13" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="sun.invoke.util.VerifyType" methodName="isNullType" methodSignature="(Ljava/lang/Class;)Z" time="8" count="11" selfTime="8" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="isInterface" methodSignature="()Z" time="3" count="11" selfTime="3" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="isAssignableFrom" methodSignature="(Ljava/lang/Class;)Z" time="2" count="11" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.net.ResourceManager" methodName="&lt;clinit&gt;" methodSignature="()V" time="25" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.security.action.GetPropertyAction" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.concurrent.atomic.AtomicInteger" methodName="&lt;init&gt;" methodSignature="(I)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="getAdapter" methodSignature="(Ljava/lang/Class;Ljava/util/Locale;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="23" count="6" selfTime="15" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="8" count="12" selfTime="8" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.Wrapper" methodName="forBasicType" methodSignature="(C)Lsun/invoke/util/Wrapper;" time="22" count="15" selfTime="15" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="sun.invoke.util.Wrapper" methodName="hashChar" methodSignature="(C)I" time="7" count="15" selfTime="7" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="sun.invoke.util.Wrapper" methodName="isDoubleWord" methodSignature="()Z" time="20" count="77" selfTime="20" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.invoke.util.Wrapper" methodName="basicTypeChar" methodSignature="()C" time="16" count="48" selfTime="16" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="sun.invoke.util.Wrapper" methodName="isWrapperType" methodSignature="(Ljava/lang/Class;)Z" time="15" count="5" selfTime="3" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.invoke.util.Wrapper" methodName="findWrapperType" methodSignature="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" time="12" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.invoke.util.Wrapper" methodName="hashWrap" methodSignature="(Ljava/lang/Class;)I" time="7" count="5" selfTime="3" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyType" methodName="&lt;clinit&gt;" methodSignature="()V" time="8" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.invoke.util.VerifyAccess" methodName="&lt;clinit&gt;" methodSignature="()V" time="7" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="sun.invoke.util.Wrapper" methodName="wrapperSimpleName" methodSignature="()Ljava/lang/String;" time="3" count="9" selfTime="3" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.invoke.util.Wrapper" methodName="primitiveType" methodSignature="()Ljava/lang/Class;" time="2" count="12" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.invoke.util.Wrapper" methodName="zero" methodSignature="()Ljava/lang/Object;" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="sun.net.ResourceManager" methodName="afterUdpClose" methodSignature="()V" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.System" methodName="getSecurityManager" methodSignature="()Ljava/lang/SecurityManager;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getDecimalFormatSymbolsProvider" methodSignature="()Ljava/text/spi/DecimalFormatSymbolsProvider;" time="2" count="6" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.invoke.util.Wrapper" methodName="primitiveSimpleName" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.launcher.LauncherHelper" methodName="checkAndLoadMain" methodSignature="(ZILjava/lang/String;)Ljava/lang/Class;" time="32455" count="1" selfTime="353" lineNumber="-1" percent="1.4">
+    <node leaf="false" class="java.lang.ClassLoader" methodName="loadClass" methodSignature="(Ljava/lang/String;)Ljava/lang/Class;" time="20028" count="1" selfTime="14265" lineNumber="-1" percent="0.9">
+      <node leaf="false" class="sun.net.www.URLConnection" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;)V" time="2688" count="1" selfTime="1722" lineNumber="-1" percent="0.1">
+        <node leaf="true" class="java.net.URLConnection" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;)V" time="935" count="1" selfTime="935" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="sun.net.www.MessageHeader" methodName="&lt;init&gt;" methodSignature="()V" time="31" count="1" selfTime="14" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="sun.net.www.MessageHeader" methodName="grow" methodSignature="()V" time="17" count="1" selfTime="17" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="false" class="sun.net.www.protocol.file.FileURLConnection" methodName="getPermission" methodSignature="()Ljava/security/Permission;" time="1829" count="1" selfTime="509" lineNumber="-1" percent="0.1">
+        <node leaf="true" class="java.io.FilePermission" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="1251" count="1" selfTime="1251" lineNumber="-1" percent="0.1"/>
+        <node leaf="true" class="java.lang.String" methodName="replace" methodSignature="(CC)Ljava/lang/String;" time="36" count="1" selfTime="36" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.net.URL" methodName="getPath" methodSignature="()Ljava/lang/String;" time="33" count="1" selfTime="33" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.net.www.URLConnection" methodName="&lt;clinit&gt;" methodSignature="()V" time="1236" count="1" selfTime="1217" lineNumber="-1" percent="0.1">
+        <node leaf="true" class="java.util.HashMap" methodName="&lt;init&gt;" methodSignature="()V" time="19" count="1" selfTime="19" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="sun.net.www.protocol.file.FileURLConnection" methodName="&lt;clinit&gt;" methodSignature="()V" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.launcher.LauncherHelper" methodName="getMainClassFromJar" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="10386" count="1" selfTime="39" lineNumber="-1" percent="0.4">
+      <node leaf="true" class="java.util.jar.JarFile" methodName="getManifest" methodSignature="()Ljava/util/jar/Manifest;" time="6643" count="1" selfTime="6643" lineNumber="-1" percent="0.3"/>
+      <node leaf="true" class="java.util.jar.JarFile" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="3037" count="1" selfTime="3037" lineNumber="-1" percent="0.1"/>
+      <node leaf="true" class="java.util.jar.JarFile" methodName="close" methodSignature="()V" time="608" count="1" selfTime="608" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.jar.Attributes" methodName="getValue" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="19" count="1" selfTime="19" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.String" methodName="trim" methodSignature="()Ljava/lang/String;" time="15" count="1" selfTime="15" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.jar.Manifest" methodName="getMainAttributes" methodSignature="()Ljava/util/jar/Attributes;" time="12" count="1" selfTime="12" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.jar.Attributes" methodName="containsKey" methodSignature="(Ljava/lang/Object;)Z" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.jar.Attributes$Name" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.launcher.LauncherHelper" methodName="validateMainClass" methodSignature="(Ljava/lang/Class;)V" time="1662" count="1" selfTime="8" lineNumber="-1" percent="0.1">
+      <node leaf="true" class="java.lang.Class" methodName="getMethod" methodSignature="(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;" time="1646" count="1" selfTime="1646" lineNumber="-1" percent="0.1"/>
+      <node leaf="true" class="java.lang.reflect.Method" methodName="getModifiers" methodSignature="()I" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.reflect.Modifier" methodName="isStatic" methodSignature="(I)Z" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.reflect.Method" methodName="getReturnType" methodSignature="()Ljava/lang/Class;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.launcher.LauncherHelper$FXHelper" methodName="doesExtendFXApplication" methodSignature="(Ljava/lang/Class;)Z" time="11" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.Class" methodName="getSuperclass" methodSignature="()Ljava/lang/Class;" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="getName" methodSignature="()Ljava/lang/String;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="java.lang.String" methodName="replace" methodSignature="(CC)Ljava/lang/String;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.lang.Object" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.launcher.LauncherHelper$FXHelper" methodName="&lt;clinit&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.launcher.LauncherHelper" methodName="initOutput" methodSignature="(Z)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.util.locale.provider.DecimalFormatSymbolsProviderImpl" methodName="getInstance" methodSignature="(Ljava/util/Locale;)Ljava/text/DecimalFormatSymbols;" time="25454" count="16" selfTime="11" lineNumber="-1" percent="1.1">
+    <node leaf="false" class="java.text.DecimalFormatSymbols" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Locale;)V" time="25443" count="16" selfTime="2874" lineNumber="-1" percent="1.1">
+      <node leaf="false" class="sun.util.locale.provider.LocaleResources" methodName="getDecimalFormatSymbolsData" methodSignature="()[Ljava/lang/Object;" time="9945" count="16" selfTime="159" lineNumber="-1" percent="0.4">
+        <node leaf="false" class="sun.util.resources.LocaleData" methodName="getNumberFormatData" methodSignature="(Ljava/util/Locale;)Ljava/util/ResourceBundle;" time="9163" count="1" selfTime="10" lineNumber="-1" percent="0.4">
+          <node leaf="false" class="sun.util.resources.LocaleData" methodName="getBundle" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle;" time="9132" count="1" selfTime="200" lineNumber="-1" percent="0.4">
+            <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="8928" count="1" selfTime="12" lineNumber="-1" percent="0.4">
+              <node leaf="false" class="sun.util.resources.LocaleData$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="8916" count="1" selfTime="2" lineNumber="-1" percent="0.4">
+                <node leaf="false" class="sun.util.resources.LocaleData$1" methodName="run" methodSignature="()Ljava/util/ResourceBundle;" time="8914" count="1" selfTime="775" lineNumber="-1" percent="0.4">
+                  <node leaf="false" class="java.util.ResourceBundle" methodName="getBundle" methodSignature="(Ljava/lang/String;Ljava/util/Locale;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;" time="8127" count="1" selfTime="6936" lineNumber="-1" percent="0.4">
+                    <node leaf="false" class="sun.util.resources.LocaleData$LocaleDataResourceBundleControl" methodName="getCandidateLocales" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/util/List;" time="640" count="1" selfTime="52" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.ResourceBundle$Control" methodName="getCandidateLocales" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/util/List;" time="319" count="1" selfTime="319" lineNumber="-1" percent="0.0"/>
+                      <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="isSupportedLocale" methodSignature="(Ljava/util/Locale;Lsun/util/locale/provider/LocaleProviderAdapter$Type;Ljava/util/Set;)Z" time="180" count="3" selfTime="2" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="java.util.Locale" methodName="toLanguageTag" methodSignature="()Ljava/lang/String;" time="131" count="2" selfTime="56" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="sun.util.locale.LanguageTag" methodName="parseLocale" methodSignature="(Lsun/util/locale/BaseLocale;Lsun/util/locale/LocaleExtensions;)Lsun/util/locale/LanguageTag;" time="51" count="1" selfTime="23" lineNumber="-1" percent="0.0">
+                            <node leaf="false" class="sun.util.locale.LanguageTag" methodName="&lt;init&gt;" methodSignature="()V" time="13" count="1" selfTime="10" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="java.util.Collections" methodName="emptyList" methodSignature="()Ljava/util/List;" time="3" count="3" selfTime="3" lineNumber="-1" percent="0.0"/>
+                            </node>
+                            <node leaf="true" class="sun.util.locale.LanguageTag" methodName="isLanguage" methodSignature="(Ljava/lang/String;)Z" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                            <node leaf="true" class="java.lang.String" methodName="isEmpty" methodSignature="()Z" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+                            <node leaf="false" class="sun.util.locale.LanguageTag" methodName="isRegion" methodSignature="(Ljava/lang/String;)Z" time="3" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+                            </node>
+                            <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+                            <node leaf="false" class="sun.util.locale.LanguageTag" methodName="isScript" methodSignature="(Ljava/lang/String;)Z" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                            </node>
+                          </node>
+                          <node leaf="true" class="sun.util.locale.LanguageTag" methodName="canonicalizeLanguage" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="12" count="1" selfTime="12" lineNumber="-1" percent="0.0"/>
+                          <node leaf="false" class="sun.util.locale.LanguageTag" methodName="getVariants" methodSignature="()Ljava/util/List;" time="9" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                            <node leaf="true" class="java.util.List" methodName="isEmpty" methodSignature="()Z" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                            <node leaf="true" class="java.util.Collections" methodName="emptyList" methodSignature="()Ljava/util/List;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                          </node>
+                          <node leaf="true" class="sun.util.locale.LanguageTag" methodName="getLanguage" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="sun.util.locale.LanguageTag" methodName="getPrivateuse" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="sun.util.locale.LanguageTag" methodName="getScript" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                        </node>
+                        <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="42" count="2" selfTime="42" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="java.util.Locale" methodName="stripExtensions" methodSignature="()Ljava/util/Locale;" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="java.util.Locale" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="1" count="3" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="java.lang.String" methodName="contains" methodSignature="(Ljava/lang/CharSequence;)Z" time="22" count="1" selfTime="22" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.util.List" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="14" count="1" selfTime="14" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.util.Set" methodName="isEmpty" methodSignature="()Z" time="12" count="1" selfTime="12" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.util.Iterator" methodName="hasNext" methodSignature="()Z" time="8" count="4" selfTime="8" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.util.Iterator" methodName="next" methodSignature="()Ljava/lang/Object;" time="7" count="3" selfTime="7" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.String" methodName="substring" methodSignature="(I)Ljava/lang/String;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                      <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLanguageTagSet" methodSignature="(Ljava/lang/String;)Ljava/util/Set;" time="6" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="java.lang.String" methodName="lastIndexOf" methodSignature="(I)I" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="forType" methodSignature="(Lsun/util/locale/provider/LocaleProviderAdapter$Type;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.util.Locale" methodName="getLanguage" methodSignature="()Ljava/lang/String;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="sun.net.www.protocol.file.FileURLConnection" methodName="getPermission" methodSignature="()Ljava/security/Permission;" time="302" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.io.FilePermission" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="293" count="1" selfTime="293" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="&lt;init&gt;" methodSignature="()V" time="187" count="3" selfTime="163" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.concurrent.atomic.AtomicMarkableReference" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/Object;Z)V" time="16" count="3" selfTime="16" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.util.ResourceBundle" methodName="&lt;init&gt;" methodSignature="()V" time="8" count="3" selfTime="8" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="sun.util.resources.LocaleData$LocaleDataResourceBundleControl" methodName="toBundleName" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;" time="54" count="3" selfTime="16" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.ResourceBundle$Control" methodName="toBundleName" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;" time="17" count="3" selfTime="17" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="5" count="5" selfTime="5" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.String" methodName="startsWith" methodSignature="(Ljava/lang/String;)Z" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.String" methodName="substring" methodSignature="(II)Ljava/lang/String;" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.String" methodName="indexOf" methodSignature="(Ljava/lang/String;I)I" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.String" methodName="substring" methodSignature="(I)Ljava/lang/String;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="1" count="6" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter$Type" methodName="getUtilResourcesPackage" methodSignature="()Ljava/lang/String;" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="sun.net.www.URLConnection" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;)V" time="8" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.net.URLConnection" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                      <node leaf="false" class="sun.net.www.MessageHeader" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="sun.net.www.MessageHeader" methodName="grow" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node leaf="false" class="sun.util.resources.LocaleData$LocaleDataResourceBundleControl" methodName="&lt;clinit&gt;" methodSignature="()V" time="12" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+                    <node leaf="false" class="sun.util.resources.LocaleData$LocaleDataResourceBundleControl" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.ResourceBundle$Control" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="true" class="sun.util.resources.LocaleData$1" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="9" count="2" selfTime="9" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter$Type" methodName="getTextResourcesPackage" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="java.util.ResourceBundle" methodName="containsKey" methodSignature="(Ljava/lang/String;)Z" time="537" count="2" selfTime="5" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="containsKey" methodSignature="(Ljava/lang/String;)Z" time="532" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="keySet" methodSignature="()Ljava/util/Set;" time="318" count="2" selfTime="220" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="handleKeySet" methodSignature="()Ljava/util/Set;" time="92" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="loadLookupTablesIfNecessary" methodSignature="()V" time="59" count="1" selfTime="13" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="sun.text.resources.es.FormatData_es_BO" methodName="getContents" methodSignature="()[[Ljava/lang/Object;" time="36" count="1" selfTime="36" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="6" count="4" selfTime="6" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.util.concurrent.atomic.AtomicMarkableReference" methodName="getReference" methodSignature="()Ljava/lang/Object;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="keySet" methodSignature="()Ljava/util/Set;" time="31" count="1" selfTime="31" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Set;Ljava/util/ResourceBundle;Lsun/util/resources/ParallelListResourceBundle$1;)V" time="6" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Set;Ljava/util/ResourceBundle;)V" time="4" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.util.AbstractSet" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="213" count="2" selfTime="2" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="211" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="java.util.ResourceBundle" methodName="containsKey" methodSignature="(Ljava/lang/String;)Z" time="205" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="containsKey" methodSignature="(Ljava/lang/String;)Z" time="204" count="2" selfTime="2" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="142" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="141" count="2" selfTime="0" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="java.util.ResourceBundle" methodName="containsKey" methodSignature="(Ljava/lang/String;)Z" time="139" count="2" selfTime="2" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="containsKey" methodSignature="(Ljava/lang/String;)Z" time="137" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+                            <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="keySet" methodSignature="()Ljava/util/Set;" time="134" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+                              <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="handleKeySet" methodSignature="()Ljava/util/Set;" time="132" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                                <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="loadLookupTablesIfNecessary" methodSignature="()V" time="131" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+                                  <node leaf="true" class="sun.text.resources.FormatData" methodName="getContents" methodSignature="()[[Ljava/lang/Object;" time="76" count="1" selfTime="76" lineNumber="-1" percent="0.0"/>
+                                  <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="42" count="67" selfTime="42" lineNumber="-1" percent="0.0"/>
+                                  <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                </node>
+                              </node>
+                              <node leaf="false" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Set;Ljava/util/ResourceBundle;Lsun/util/resources/ParallelListResourceBundle$1;)V" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                                <node leaf="true" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Set;Ljava/util/ResourceBundle;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                              </node>
+                            </node>
+                            <node leaf="false" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="2" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+                              <node leaf="false" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="1" count="2" selfTime="0" lineNumber="-1" percent="0.0">
+                                <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                    <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="keySet" methodSignature="()Ljava/util/Set;" time="60" count="2" selfTime="0" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="handleKeySet" methodSignature="()Ljava/util/Set;" time="58" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="loadLookupTablesIfNecessary" methodSignature="()V" time="57" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                          <node leaf="true" class="sun.text.resources.es.FormatData_es" methodName="getContents" methodSignature="()[[Ljava/lang/Object;" time="30" count="1" selfTime="30" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="22" count="14" selfTime="22" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="java.util.concurrent.atomic.AtomicMarkableReference" methodName="getReference" methodSignature="()Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                        </node>
+                        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="keySet" methodSignature="()Ljava/util/Set;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Set;Ljava/util/ResourceBundle;Lsun/util/resources/ParallelListResourceBundle$1;)V" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="sun.util.resources.ParallelListResourceBundle$KeySet" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Set;Ljava/util/ResourceBundle;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node leaf="false" class="sun.util.locale.provider.LocaleResources" methodName="removeEmptyReferences" methodSignature="()V" time="21" count="16" selfTime="15" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.ref.ReferenceQueue" methodName="poll" methodSignature="()Ljava/lang/ref/Reference;" time="6" count="16" selfTime="6" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="19" count="16" selfTime="19" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="java.util.ResourceBundle" methodName="getString" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="11" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="handleGetObject" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="5" count="3" selfTime="1" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="sun.util.resources.ParallelListResourceBundle" methodName="loadLookupTablesIfNecessary" methodSignature="()V" time="3" count="3" selfTime="3" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="3" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="java.util.ResourceBundle" methodName="getStringArray" methodSignature="(Ljava/lang/String;)[Ljava/lang/String;" time="10" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.resources.ParallelListResourceBundle" methodName="handleGetObject" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="8" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="sun.util.resources.ParallelListResourceBundle" methodName="loadLookupTablesIfNecessary" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="true" class="java.util.Locale" methodName="getUnicodeLocaleType" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="sun.util.locale.provider.LocaleResources$ResourceReference" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V" time="6" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.ref.SoftReference" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.util.locale.provider.LocaleServiceProviderPool" methodName="getLocalizedObject" methodSignature="(Lsun/util/locale/provider/LocaleServiceProviderPool$LocalizedObjectGetter;Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;" time="7621" count="1" selfTime="3" lineNumber="-1" percent="0.3">
+        <node leaf="false" class="sun.util.locale.provider.LocaleServiceProviderPool" methodName="getLocalizedObjectImpl" methodSignature="(Lsun/util/locale/provider/LocaleServiceProviderPool$LocalizedObjectGetter;Ljava/util/Locale;ZLjava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;" time="7618" count="1" selfTime="10" lineNumber="-1" percent="0.3">
+          <node leaf="false" class="sun.util.locale.provider.CurrencyNameProviderImpl" methodName="getSymbol" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;" time="7602" count="1" selfTime="4" lineNumber="-1" percent="0.3">
+            <node leaf="false" class="sun.util.locale.provider.CurrencyNameProviderImpl" methodName="getString" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;" time="7596" count="1" selfTime="10" lineNumber="-1" percent="0.3">
+              <node leaf="false" class="sun.util.locale.provider.LocaleResources" methodName="getCurrencyName" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="7584" count="1" selfTime="26" lineNumber="-1" percent="0.3">
+                <node leaf="false" class="sun.util.resources.LocaleData" methodName="getCurrencyNames" methodSignature="(Ljava/util/Locale;)Lsun/util/resources/OpenListResourceBundle;" time="7504" count="1" selfTime="6" lineNumber="-1" percent="0.3">
+                  <node leaf="false" class="sun.util.resources.LocaleData" methodName="getBundle" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle;" time="7498" count="1" selfTime="4" lineNumber="-1" percent="0.3">
+                    <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="7493" count="1" selfTime="2" lineNumber="-1" percent="0.3">
+                      <node leaf="false" class="sun.util.resources.LocaleData$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="7491" count="1" selfTime="0" lineNumber="-1" percent="0.3">
+                        <node leaf="false" class="sun.util.resources.LocaleData$1" methodName="run" methodSignature="()Ljava/util/ResourceBundle;" time="7491" count="1" selfTime="1" lineNumber="-1" percent="0.3">
+                          <node leaf="false" class="java.util.ResourceBundle" methodName="getBundle" methodSignature="(Ljava/lang/String;Ljava/util/Locale;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;" time="7490" count="1" selfTime="7370" lineNumber="-1" percent="0.3">
+                            <node leaf="false" class="sun.util.resources.LocaleData$LocaleDataResourceBundleControl" methodName="toBundleName" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;" time="50" count="3" selfTime="20" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="9" count="2" selfTime="9" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.util.ResourceBundle$Control" methodName="toBundleName" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;" time="6" count="3" selfTime="6" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="5" count="6" selfTime="5" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.util.Locale" methodName="getLanguage" methodSignature="()Ljava/lang/String;" time="3" count="3" selfTime="3" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.lang.String" methodName="indexOf" methodSignature="(Ljava/lang/String;I)I" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.lang.String" methodName="substring" methodSignature="(I)Ljava/lang/String;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.lang.String" methodName="substring" methodSignature="(II)Ljava/lang/String;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter$Type" methodName="getUtilResourcesPackage" methodSignature="()Ljava/lang/String;" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+                            </node>
+                            <node leaf="false" class="sun.util.resources.LocaleData$LocaleDataResourceBundleControl" methodName="getCandidateLocales" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/util/List;" time="35" count="1" selfTime="7" lineNumber="-1" percent="0.0">
+                              <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="isSupportedLocale" methodSignature="(Ljava/util/Locale;Lsun/util/locale/provider/LocaleProviderAdapter$Type;Ljava/util/Set;)Z" time="13" count="3" selfTime="3" lineNumber="-1" percent="0.0">
+                                <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="9" count="2" selfTime="9" lineNumber="-1" percent="0.0"/>
+                                <node leaf="true" class="java.util.Locale" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="1" count="3" selfTime="1" lineNumber="-1" percent="0.0"/>
+                              </node>
+                              <node leaf="true" class="java.util.ResourceBundle$Control" methodName="getCandidateLocales" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)Ljava/util/List;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.lang.String" methodName="contains" methodSignature="(Ljava/lang/CharSequence;)Z" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.util.List" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.lang.String" methodName="lastIndexOf" methodSignature="(I)I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="java.util.Set" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                              <node leaf="true" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLanguageTagSet" methodSignature="(Ljava/lang/String;)Ljava/util/Set;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                            </node>
+                            <node leaf="false" class="sun.util.resources.LocaleNamesBundle" methodName="&lt;init&gt;" methodSignature="()V" time="35" count="3" selfTime="18" lineNumber="-1" percent="0.0">
+                              <node leaf="false" class="sun.util.resources.OpenListResourceBundle" methodName="&lt;init&gt;" methodSignature="()V" time="17" count="3" selfTime="6" lineNumber="-1" percent="0.0">
+                                <node leaf="true" class="java.util.ResourceBundle" methodName="&lt;init&gt;" methodSignature="()V" time="11" count="3" selfTime="11" lineNumber="-1" percent="0.0"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node leaf="true" class="sun.util.resources.LocaleData$1" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/util/Locale;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                  </node>
+                </node>
+                <node leaf="false" class="sun.util.resources.OpenListResourceBundle" methodName="handleKeySet" methodSignature="()Ljava/util/Set;" time="34" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="sun.util.resources.OpenListResourceBundle" methodName="loadLookupTablesIfNecessary" methodSignature="()V" time="27" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="sun.util.resources.OpenListResourceBundle" methodName="loadLookup" methodSignature="()V" time="24" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.Map" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+                      <node leaf="false" class="sun.util.resources.OpenListResourceBundle" methodName="createMap" methodSignature="(I)Ljava/util/Map;" time="7" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.util.HashMap" methodName="&lt;init&gt;" methodSignature="(I)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="sun.util.resources.es.CurrencyNames_es_BO" methodName="getContents" methodSignature="()[[Ljava/lang/Object;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                  <node leaf="true" class="java.util.Map" methodName="keySet" methodSignature="()Ljava/util/Set;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="sun.util.locale.provider.LocaleResources$ResourceReference" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                <node leaf="false" class="sun.util.resources.OpenListResourceBundle" methodName="handleGetObject" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.util.Map" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                <node leaf="false" class="sun.util.locale.provider.LocaleResources" methodName="removeEmptyReferences" methodSignature="()V" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.lang.ref.ReferenceQueue" methodName="poll" methodSignature="()Ljava/lang/ref/Reference;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLocaleResources" methodSignature="(Ljava/util/Locale;)Lsun/util/locale/provider/LocaleResources;" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="forType" methodSignature="(Lsun/util/locale/provider/LocaleProviderAdapter$Type;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.lang.String" methodName="toUpperCase" methodSignature="(Ljava/util/Locale;)Ljava/lang/String;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="sun.util.locale.provider.LocaleServiceProviderPool" methodName="hasProviders" methodSignature="()Z" time="6" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="size" methodSignature="()I" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+      </node>
+      <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLocaleResources" methodSignature="(Ljava/util/Locale;)Lsun/util/locale/provider/LocaleResources;" time="2778" count="16" selfTime="1911" lineNumber="-1" percent="0.1">
+        <node leaf="false" class="sun.util.locale.provider.LocaleResources" methodName="&lt;init&gt;" methodSignature="(Lsun/util/locale/provider/ResourceBundleBasedAdapter;Ljava/util/Locale;)V" time="769" count="1" selfTime="25" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLocaleData" methodSignature="()Lsun/util/resources/LocaleData;" time="711" count="1" selfTime="702" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="sun.util.resources.LocaleData" methodName="&lt;init&gt;" methodSignature="(Lsun/util/locale/provider/LocaleProviderAdapter$Type;)V" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getAdapterType" methodSignature="()Lsun/util/locale/provider/LocaleProviderAdapter$Type;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.lang.ref.ReferenceQueue" methodName="&lt;init&gt;" methodSignature="()V" time="22" count="1" selfTime="22" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="sun.util.locale.provider.LocaleResources" methodName="&lt;clinit&gt;" methodSignature="()V" time="65" count="1" selfTime="38" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="27" count="1" selfTime="27" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="putIfAbsent" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="23" count="1" selfTime="23" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="10" count="16" selfTime="10" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="getAdapter" methodSignature="(Ljava/lang/Class;Ljava/util/Locale;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="1138" count="16" selfTime="1123" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="15" count="32" selfTime="15" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.util.locale.provider.LocaleServiceProviderPool" methodName="getPool" methodSignature="(Ljava/lang/Class;)Lsun/util/locale/provider/LocaleServiceProviderPool;" time="785" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.util.locale.provider.LocaleServiceProviderPool" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/Class;)V" time="778" count="1" selfTime="11" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLocaleServiceProvider" methodSignature="(Ljava/lang/Class;)Ljava/util/spi/LocaleServiceProvider;" time="440" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getCurrencyNameProvider" methodSignature="()Ljava/util/spi/CurrencyNameProvider;" time="427" count="1" selfTime="204" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLanguageTagSet" methodSignature="(Ljava/lang/String;)Ljava/util/Set;" time="206" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="createLanguageTagSet" methodSignature="(Ljava/lang/String;)Ljava/util/Set;" time="202" count="1" selfTime="56" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.util.StringTokenizer" methodName="nextToken" methodSignature="()Ljava/lang/String;" time="44" count="120" selfTime="44" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.util.Set" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="40" count="119" selfTime="40" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.util.StringTokenizer" methodName="hasMoreTokens" methodSignature="()Z" time="40" count="121" selfTime="40" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="13" count="120" selfTime="13" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.util.StringTokenizer" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                  <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="isNonENLangSupported" methodSignature="()Z" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.lang.Boolean" methodName="booleanValue" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                  </node>
+                  <node leaf="true" class="java.util.HashSet" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                  <node leaf="false" class="sun.util.locale.provider.LocaleDataMetaInfo" methodName="getSupportedLocaleString" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.util.HashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                  </node>
+                </node>
+                <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="putIfAbsent" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="sun.util.locale.provider.CurrencyNameProviderImpl" methodName="&lt;init&gt;" methodSignature="(Lsun/util/locale/provider/LocaleProviderAdapter$Type;Ljava/util/Set;)V" time="16" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.spi.CurrencyNameProvider" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getAdapterType" methodSignature="()Lsun/util/locale/provider/LocaleProviderAdapter$Type;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.lang.Class" methodName="getSimpleName" methodSignature="()Ljava/lang/String;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="sun.util.locale.provider.AuxLocaleProviderAdapter" methodName="getLocaleServiceProvider" methodSignature="(Ljava/lang/Class;)Ljava/util/spi/LocaleServiceProvider;" time="301" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.util.locale.provider.SPILocaleProviderAdapter" methodName="findInstalledProvider" methodSignature="(Ljava/lang/Class;)Ljava/util/spi/LocaleServiceProvider;" time="289" count="1" selfTime="230" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;" time="54" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.util.locale.provider.SPILocaleProviderAdapter$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="49" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="sun.util.locale.provider.SPILocaleProviderAdapter$1" methodName="run" methodSignature="()Ljava/util/spi/LocaleServiceProvider;" time="46" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.util.Iterator" methodName="hasNext" methodSignature="()Z" time="32" count="1" selfTime="32" lineNumber="-1" percent="0.0"/>
+                    <node leaf="true" class="java.util.ServiceLoader" methodName="loadInstalled" methodSignature="(Ljava/lang/Class;)Ljava/util/ServiceLoader;" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+                    <node leaf="true" class="java.util.ServiceLoader" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                  </node>
+                </node>
+              </node>
+              <node leaf="true" class="sun.util.locale.provider.SPILocaleProviderAdapter$1" methodName="&lt;init&gt;" methodSignature="(Lsun/util/locale/provider/SPILocaleProviderAdapter;Ljava/lang/Class;)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="putIfAbsent" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.List" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.Iterator" methodName="hasNext" methodSignature="()Z" time="5" count="3" selfTime="5" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="putIfAbsent" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="forType" methodSignature="(Lsun/util/locale/provider/LocaleProviderAdapter$Type;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.Iterator" methodName="next" methodSignature="()Ljava/lang/Object;" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="getAdapterPreference" methodSignature="()Ljava/util/List;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="putIfAbsent" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.util.locale.provider.LocaleServiceProviderPool" methodName="&lt;clinit&gt;" methodSignature="()V" time="302" count="1" selfTime="295" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.Collections" methodName="emptyList" methodSignature="()Ljava/util/List;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+  </node>
+  <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="run" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="6249" count="1" selfTime="1530" lineNumber="-1" percent="0.3">
+    <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="4666" count="1" selfTime="31" lineNumber="-1" percent="0.2">
+      <node leaf="false" class="sun.usagetracker.UsageTrackerClient$4" methodName="run" methodSignature="()Ljava/lang/Object;" time="4635" count="1" selfTime="4" lineNumber="-1" percent="0.2">
+        <node leaf="false" class="sun.usagetracker.UsageTrackerClient$4" methodName="run" methodSignature="()Ljava/lang/Void;" time="4631" count="1" selfTime="86" lineNumber="-1" percent="0.2">
+          <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="setupAndTimestamp" methodSignature="(J)V" time="4497" count="1" selfTime="32" lineNumber="-1" percent="0.2">
+            <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="registerUsage" methodSignature="(J)V" time="2573" count="1" selfTime="48" lineNumber="-1" percent="0.1">
+              <node leaf="true" class="java.io.FileOutputStream" methodName="close" methodSignature="()V" time="1056" count="1" selfTime="1056" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.io.FileOutputStream" methodName="&lt;init&gt;" methodSignature="(Ljava/io/File;)V" time="448" count="1" selfTime="448" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.io.File" methodName="getCanonicalPath" methodSignature="()Ljava/lang/String;" time="410" count="1" selfTime="410" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.io.FileOutputStream" methodName="write" methodSignature="([B)V" time="208" count="1" selfTime="208" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPathHash" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="91" count="1" selfTime="19" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.lang.Long" methodName="toHexString" methodSignature="(J)Ljava/lang/String;" time="38" count="1" selfTime="38" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="22" count="39" selfTime="22" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="12" count="38" selfTime="12" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="java.io.File" methodName="exists" methodSignature="()Z" time="59" count="1" selfTime="59" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="52" count="3" selfTime="52" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="35" count="12" selfTime="35" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.String" methodName="getBytes" methodSignature="(Ljava/lang/String;)[B" time="29" count="1" selfTime="29" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.String" methodName="toLowerCase" methodSignature="()Ljava/lang/String;" time="28" count="1" selfTime="28" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="23" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="21" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="17" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="11" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/String;" time="5" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node leaf="true" class="sun.usagetracker.UsageTrackerClient$1" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(J)Ljava/lang/StringBuilder;" time="22" count="1" selfTime="22" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="14" count="3" selfTime="14" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getEnvPrivileged" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="14" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="11" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="sun.usagetracker.UsageTrackerClient$2" methodName="run" methodSignature="()Ljava/lang/Object;" time="8" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="sun.usagetracker.UsageTrackerClient$2" methodName="run" methodSignature="()Ljava/lang/String;" time="7" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="jdk.internal.util.EnvUtils" methodName="getEnvVar" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                </node>
+                <node leaf="true" class="sun.usagetracker.UsageTrackerClient$2" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="java.io.File" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.io.File" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.System" methodName="lineSeparator" methodSignature="()Ljava/lang/String;" time="6" count="2" selfTime="6" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.String" methodName="startsWith" methodSignature="(Ljava/lang/String;)Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getConfigFilePrivileged" methodSignature="()Ljava/io/File;" time="1873" count="1" selfTime="488" lineNumber="-1" percent="0.1">
+              <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getOSSpecificConfigFilePath" methodSignature="()Ljava/lang/String;" time="904" count="1" selfTime="19" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getEnvPrivileged" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="775" count="1" selfTime="679" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="81" count="1" selfTime="10" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="sun.usagetracker.UsageTrackerClient$2" methodName="run" methodSignature="()Ljava/lang/Object;" time="71" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="sun.usagetracker.UsageTrackerClient$2" methodName="run" methodSignature="()Ljava/lang/String;" time="66" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="jdk.internal.util.EnvUtils" methodName="getEnvVar" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="62" count="1" selfTime="62" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node leaf="true" class="sun.usagetracker.UsageTrackerClient$2" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="15" count="1" selfTime="15" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="true" class="java.lang.String" methodName="toLowerCase" methodSignature="()Ljava/lang/String;" time="56" count="3" selfTime="56" lineNumber="-1" percent="0.0"/>
+                <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="23" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="20" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="19" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="16" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/String;" time="14" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+                          <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+                        </node>
+                      </node>
+                    </node>
+                    <node leaf="true" class="sun.usagetracker.UsageTrackerClient$1" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                  </node>
+                </node>
+                <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="15" count="3" selfTime="15" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.String" methodName="startsWith" methodSignature="(Ljava/lang/String;)Z" time="2" count="3" selfTime="2" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="442" count="2" selfTime="9" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.usagetracker.UsageTrackerClient$3" methodName="run" methodSignature="()Ljava/lang/Object;" time="433" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="sun.usagetracker.UsageTrackerClient$3" methodName="run" methodSignature="()Ljava/io/File;" time="430" count="2" selfTime="10" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.io.File" methodName="exists" methodSignature="()Z" time="390" count="2" selfTime="390" lineNumber="-1" percent="0.0"/>
+                    <node leaf="true" class="java.io.File" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="30" count="2" selfTime="30" lineNumber="-1" percent="0.0"/>
+                  </node>
+                </node>
+              </node>
+              <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="16" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="14" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="8" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="5" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/String;" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node leaf="true" class="sun.usagetracker.UsageTrackerClient$1" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="10" count="7" selfTime="10" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="sun.usagetracker.UsageTrackerClient$3" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="10" count="2" selfTime="10" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.util.concurrent.atomic.AtomicBoolean" methodName="compareAndSet" methodSignature="(ZZ)Z" time="19" count="1" selfTime="19" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="21" count="1" selfTime="21" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.Boolean" methodName="parseBoolean" methodSignature="(Ljava/lang/String;)Z" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="sun.usagetracker.UsageTrackerClient" methodName="printVerbose" methodSignature="(Ljava/lang/String;)V" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.System" methodName="currentTimeMillis" methodSignature="()J" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+    </node>
+    <node leaf="true" class="sun.usagetracker.UsageTrackerClient$4" methodName="&lt;init&gt;" methodSignature="(Lsun/usagetracker/UsageTrackerClient;Ljava/lang/String;Ljava/lang/String;)V" time="26" count="1" selfTime="26" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="13" count="4" selfTime="13" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.usagetracker.UsageTrackerClient" methodName="printDebug" methodSignature="(Ljava/lang/String;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="getAdapter" methodSignature="(Ljava/lang/Class;Ljava/util/Locale;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="3826" count="16" selfTime="37" lineNumber="-1" percent="0.2">
+    <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="findAdapter" methodSignature="(Ljava/lang/Class;Ljava/util/Locale;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="3723" count="1" selfTime="5" lineNumber="-1" percent="0.2">
+      <node leaf="false" class="java.util.spi.LocaleServiceProvider" methodName="isSupportedLocale" methodSignature="(Ljava/util/Locale;)Z" time="2531" count="1" selfTime="3" lineNumber="-1" percent="0.1">
+        <node leaf="false" class="sun.util.locale.provider.DecimalFormatSymbolsProviderImpl" methodName="isSupportedLocale" methodSignature="(Ljava/util/Locale;)Z" time="2528" count="1" selfTime="4" lineNumber="-1" percent="0.1">
+          <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="isSupportedLocale" methodSignature="(Ljava/util/Locale;Lsun/util/locale/provider/LocaleProviderAdapter$Type;Ljava/util/Set;)Z" time="2524" count="1" selfTime="6" lineNumber="-1" percent="0.1">
+            <node leaf="false" class="java.util.Locale" methodName="toLanguageTag" methodSignature="()Ljava/lang/String;" time="2502" count="1" selfTime="2249" lineNumber="-1" percent="0.1">
+              <node leaf="false" class="sun.util.locale.LanguageTag" methodName="&lt;clinit&gt;" methodSignature="()V" time="184" count="1" selfTime="120" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Map" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="59" count="26" selfTime="59" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.util.HashMap" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="sun.util.locale.LanguageTag" methodName="parseLocale" methodSignature="(Lsun/util/locale/BaseLocale;Lsun/util/locale/LocaleExtensions;)Lsun/util/locale/LanguageTag;" time="50" count="1" selfTime="20" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="sun.util.locale.LanguageTag" methodName="&lt;init&gt;" methodSignature="()V" time="13" count="1" selfTime="10" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.util.Collections" methodName="emptyList" methodSignature="()Ljava/util/List;" time="3" count="3" selfTime="3" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="false" class="sun.util.locale.LanguageTag" methodName="isLanguage" methodSignature="(Ljava/lang/String;)Z" time="7" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.String" methodName="isEmpty" methodSignature="()Z" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="sun.util.locale.LanguageTag" methodName="isRegion" methodSignature="(Ljava/lang/String;)Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="sun.util.locale.LanguageTag" methodName="canonicalizeRegion" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                <node leaf="false" class="sun.util.locale.LanguageTag" methodName="isScript" methodSignature="(Ljava/lang/String;)Z" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.lang.String" methodName="length" methodSignature="()I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="sun.util.locale.LanguageTag" methodName="canonicalizeLanguage" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="sun.util.locale.LanguageTag" methodName="getVariants" methodSignature="()Ljava/util/List;" time="6" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.List" methodName="isEmpty" methodSignature="()Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.util.Collections" methodName="emptyList" methodSignature="()Ljava/util/List;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="sun.util.locale.LanguageTag" methodName="getExtensions" methodSignature="()Ljava/util/List;" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.List" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="sun.util.locale.LanguageTag" methodName="canonicalizeRegion" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="sun.util.locale.LanguageTag" methodName="getScript" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.Locale" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.Locale" methodName="stripExtensions" methodSignature="()Ljava/util/Locale;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+      </node>
+      <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLocaleServiceProvider" methodSignature="(Ljava/lang/Class;)Ljava/util/spi/LocaleServiceProvider;" time="1038" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getDecimalFormatSymbolsProvider" methodSignature="()Ljava/text/spi/DecimalFormatSymbolsProvider;" time="1011" count="1" selfTime="202" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getLanguageTagSet" methodSignature="(Ljava/lang/String;)Ljava/util/Set;" time="797" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="createLanguageTagSet" methodSignature="(Ljava/lang/String;)Ljava/util/Set;" time="783" count="1" selfTime="205" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="isNonENLangSupported" methodSignature="()Z" time="240" count="1" selfTime="111" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="105" count="2" selfTime="9" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="96" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter$1" methodName="run" methodSignature="()Ljava/lang/Boolean;" time="94" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.io.File" methodName="exists" methodSignature="()Z" time="89" count="1" selfTime="89" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.Boolean" methodName="valueOf" methodSignature="(Z)Ljava/lang/Boolean;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                </node>
+                <node leaf="true" class="java.io.File" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="5" count="7" selfTime="5" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="sun.util.locale.provider.JRELocaleProviderAdapter$1" methodName="&lt;init&gt;" methodSignature="(Ljava/io/File;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.Boolean" methodName="booleanValue" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="sun.security.action.GetPropertyAction" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="java.util.Set" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="140" count="137" selfTime="140" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.StringTokenizer" methodName="nextToken" methodSignature="()Ljava/lang/String;" time="68" count="138" selfTime="68" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.StringTokenizer" methodName="hasMoreTokens" methodSignature="()Z" time="46" count="139" selfTime="46" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="sun.util.locale.provider.LocaleDataMetaInfo" methodName="&lt;clinit&gt;" methodSignature="()V" time="42" count="1" selfTime="24" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.HashMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="13" count="9" selfTime="13" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.util.HashMap" methodName="&lt;init&gt;" methodSignature="(I)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="30" count="138" selfTime="30" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.StringTokenizer" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.HashSet" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="sun.util.locale.provider.LocaleDataMetaInfo" methodName="getSupportedLocaleString" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.HashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+            <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="putIfAbsent" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="sun.util.locale.provider.DecimalFormatSymbolsProviderImpl" methodName="&lt;init&gt;" methodSignature="(Lsun/util/locale/provider/LocaleProviderAdapter$Type;Ljava/util/Set;)V" time="10" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.text.spi.DecimalFormatSymbolsProvider" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getAdapterType" methodSignature="()Lsun/util/locale/provider/LocaleProviderAdapter$Type;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.lang.Class" methodName="getSimpleName" methodSignature="()Ljava/lang/String;" time="19" count="1" selfTime="19" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.String" methodName="hashCode" methodSignature="()I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="forType" methodSignature="(Lsun/util/locale/provider/LocaleProviderAdapter$Type;)Lsun/util/locale/provider/LocaleProviderAdapter;" time="141" count="1" selfTime="128" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter$1" methodName="&lt;clinit&gt;" methodSignature="()V" time="13" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter$Type" methodName="values" methodSignature="()[Lsun/util/locale/provider/LocaleProviderAdapter$Type;" time="5" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="[Lsun.util.locale.provider.LocaleProviderAdapter$Type;" methodName="clone" methodSignature="()Ljava/lang/Object;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+      </node>
+      <node leaf="true" class="java.util.List" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.Iterator" methodName="hasNext" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.Iterator" methodName="next" methodSignature="()Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="getAdapterPreference" methodSignature="()Ljava/util/List;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="39" count="31" selfTime="39" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.concurrent.ConcurrentMap" methodName="putIfAbsent" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="27" count="2" selfTime="27" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="&lt;clinit&gt;" methodSignature="()V" time="2427" count="1" selfTime="2206" lineNumber="-1" percent="0.1">
+    <node leaf="false" class="sun.util.locale.provider.AuxLocaleProviderAdapter" methodName="&lt;clinit&gt;" methodSignature="()V" time="123" count="1" selfTime="113" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.util.locale.provider.AuxLocaleProviderAdapter$NullProvider" methodName="&lt;init&gt;" methodSignature="(Lsun/util/locale/provider/AuxLocaleProviderAdapter$1;)V" time="10" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.util.locale.provider.AuxLocaleProviderAdapter$NullProvider" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.spi.LocaleServiceProvider" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+    </node>
+    <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter$Type" methodName="&lt;clinit&gt;" methodSignature="()V" time="24" count="1" selfTime="14" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.util.locale.provider.LocaleProviderAdapter$Type" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V" time="7" count="3" selfTime="5" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.Enum" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="2" count="3" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter$Type" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="18" count="1" selfTime="18" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="&lt;init&gt;" methodSignature="()V" time="15" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.util.locale.provider.SPILocaleProviderAdapter" methodName="&lt;init&gt;" methodSignature="()V" time="11" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.util.locale.provider.AuxLocaleProviderAdapter" methodName="&lt;init&gt;" methodSignature="()V" time="9" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="sun.util.locale.provider.LocaleProviderAdapter" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="true" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.Collections" methodName="unmodifiableList" methodSignature="(Ljava/util/List;)Ljava/util/List;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.List" methodName="isEmpty" methodSignature="()Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="&lt;clinit&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.security.action.GetPropertyAction" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.net.www.protocol.jar.JarURLConnection" methodName="getInputStream" methodSignature="()Ljava/io/InputStream;" time="2107" count="4" selfTime="148" lineNumber="-1" percent="0.1">
+    <node leaf="false" class="sun.net.www.protocol.jar.JarURLConnection" methodName="connect" methodSignature="()V" time="1265" count="4" selfTime="23" lineNumber="-1" percent="0.1">
+      <node leaf="false" class="sun.net.www.protocol.jar.JarFileFactory" methodName="getOrCreate" methodSignature="(Ljava/net/URL;Z)Ljava/util/jar/JarFile;" time="850" count="4" selfTime="648" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.net.www.protocol.jar.URLJarFile" methodName="getJarFile" methodSignature="(Ljava/net/URL;Lsun/net/www/protocol/jar/URLJarFile$URLJarFileCloseController;)Ljava/util/jar/JarFile;" time="138" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.net.www.protocol.jar.URLJarFile" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;Lsun/net/www/protocol/jar/URLJarFile$URLJarFileCloseController;)V" time="131" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.jar.JarFile" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="126" count="1" selfTime="126" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.net.URL" methodName="getFile" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="sun.net.www.protocol.jar.URLJarFile" methodName="isFileURL" methodSignature="(Ljava/net/URL;)Z" time="4" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.String" methodName="equalsIgnoreCase" methodSignature="(Ljava/lang/String;)Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="sun.net.www.protocol.jar.JarFileFactory" methodName="getCachedJarFile" methodSignature="(Ljava/net/URL;)Ljava/util/jar/JarFile;" time="28" count="4" selfTime="22" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.HashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="5" count="4" selfTime="5" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.System" methodName="getSecurityManager" methodSignature="()Ljava/lang/SecurityManager;" time="1" count="3" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="sun.net.www.protocol.jar.URLJarFile" methodName="isFileURL" methodSignature="(Ljava/net/URL;)Z" time="16" count="4" selfTime="5" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.String" methodName="equalsIgnoreCase" methodSignature="(Ljava/lang/String;)Z" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.net.URL" methodName="getProtocol" methodSignature="()Ljava/lang/String;" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.net.URL" methodName="getHost" methodSignature="()Ljava/lang/String;" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="sun.net.www.protocol.jar.JarFileFactory" methodName="urlFor" methodSignature="(Ljava/net/URL;)Ljava/net/URL;" time="14" count="4" selfTime="7" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.String" methodName="equalsIgnoreCase" methodSignature="(Ljava/lang/String;)Z" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.net.URL" methodName="getProtocol" methodSignature="()Ljava/lang/String;" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.net.URL" methodName="getHost" methodSignature="()Ljava/lang/String;" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.lang.System" methodName="getSecurityManager" methodSignature="()Ljava/lang/SecurityManager;" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="sun.net.www.protocol.jar.URLJarFile" methodName="&lt;clinit&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="java.util.jar.JarFile" methodName="getEntry" methodSignature="(Ljava/lang/String;)Ljava/util/zip/ZipEntry;" time="247" count="4" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.net.www.protocol.jar.URLJarFile" methodName="getEntry" methodSignature="(Ljava/lang/String;)Ljava/util/zip/ZipEntry;" time="243" count="4" selfTime="192" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.jar.JarFile" methodName="getEntry" methodSignature="(Ljava/lang/String;)Ljava/util/zip/ZipEntry;" time="36" count="4" selfTime="36" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry" methodName="&lt;init&gt;" methodSignature="(Lsun/net/www/protocol/jar/URLJarFile;Ljava/util/jar/JarEntry;)V" time="15" count="4" selfTime="9" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.jar.JarEntry" methodName="&lt;init&gt;" methodSignature="(Ljava/util/jar/JarEntry;)V" time="6" count="4" selfTime="6" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+      </node>
+      <node leaf="false" class="sun.net.www.protocol.jar.JarFileFactory" methodName="getConnection" methodSignature="(Ljava/util/jar/JarFile;)Ljava/net/URLConnection;" time="71" count="4" selfTime="3" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="java.net.URL" methodName="openConnection" methodSignature="()Ljava/net/URLConnection;" time="64" count="4" selfTime="51" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.net.www.URLConnection" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;)V" time="13" count="4" selfTime="5" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.net.www.MessageHeader" methodName="&lt;init&gt;" methodSignature="()V" time="7" count="4" selfTime="4" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="sun.net.www.MessageHeader" methodName="grow" methodSignature="()V" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.net.URLConnection" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;)V" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="true" class="java.util.HashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.net.www.protocol.jar.JarFileFactory" methodName="cacheIfAbsent" methodSignature="(Ljava/net/URL;Ljava/util/jar/JarFile;)Z" time="66" count="4" selfTime="16" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.net.www.protocol.jar.JarFileFactory" methodName="urlFor" methodSignature="(Ljava/net/URL;)Ljava/net/URL;" time="39" count="4" selfTime="23" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.lang.String" methodName="equalsIgnoreCase" methodSignature="(Ljava/lang/String;)Z" time="15" count="4" selfTime="15" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.net.URL" methodName="getHost" methodSignature="()Ljava/lang/String;" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.util.HashMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="7" count="2" selfTime="7" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.HashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.net.www.protocol.jar.JarURLConnection" methodName="getUseCaches" methodSignature="()Z" time="4" count="4" selfTime="2" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.net.URLConnection" methodName="getUseCaches" methodSignature="()Z" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.net.URLConnection" methodName="getUseCaches" methodSignature="()Z" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.net.URLConnection" methodName="setUseCaches" methodSignature="(Z)V" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="java.util.jar.JarFile" methodName="getInputStream" methodSignature="(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;" time="682" count="4" selfTime="682" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream" methodName="&lt;init&gt;" methodSignature="(Lsun/net/www/protocol/jar/JarURLConnection;Ljava/io/InputStream;)V" time="12" count="4" selfTime="8" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.io.FilterInputStream" methodName="&lt;init&gt;" methodSignature="(Ljava/io/InputStream;)V" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+  </node>
+  <node leaf="false" class="sun.nio.ch.FileChannelImpl" methodName="tryLock" methodSignature="(JJZ)Ljava/nio/channels/FileLock;" time="2059" count="1" selfTime="483" lineNumber="-1" percent="0.1">
+    <node leaf="false" class="sun.nio.ch.FileChannelImpl" methodName="fileLockTable" methodSignature="()Lsun/nio/ch/FileLockTable;" time="1343" count="1" selfTime="157" lineNumber="-1" percent="0.1">
+      <node leaf="false" class="sun.nio.ch.FileLockTable" methodName="newSharedFileLockTable" methodSignature="(Ljava/nio/channels/Channel;Ljava/io/FileDescriptor;)Lsun/nio/ch/FileLockTable;" time="1044" count="1" selfTime="665" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.nio.ch.SharedFileLockTable" methodName="&lt;init&gt;" methodSignature="(Ljava/nio/channels/Channel;Ljava/io/FileDescriptor;)V" time="347" count="1" selfTime="224" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.nio.ch.FileKey" methodName="create" methodSignature="(Ljava/io/FileDescriptor;)Lsun/nio/ch/FileKey;" time="64" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="sun.nio.ch.FileKey" methodName="init" methodSignature="(Ljava/io/FileDescriptor;)V" time="60" count="1" selfTime="60" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="sun.nio.ch.FileKey" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="sun.nio.ch.FileKey" methodName="&lt;clinit&gt;" methodSignature="()V" time="57" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="sun.nio.ch.FileKey" methodName="initIDs" methodSignature="()V" time="54" count="1" selfTime="54" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="sun.nio.ch.FileLockTable" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="sun.nio.ch.SharedFileLockTable" methodName="&lt;clinit&gt;" methodSignature="()V" time="32" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="&lt;init&gt;" methodSignature="()V" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.ref.ReferenceQueue" methodName="&lt;init&gt;" methodSignature="()V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="false" class="sun.nio.ch.NativeThreadSet" methodName="add" methodSignature="()I" time="110" count="1" selfTime="109" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.nio.ch.NativeThread" methodName="current" methodSignature="()J" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.nio.ch.FileChannelImpl" methodName="isSharedFileLockTable" methodSignature="()Z" time="30" count="1" selfTime="13" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="sun.security.action.GetPropertyAction" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="sun.nio.ch.FileChannelImpl" methodName="ensureOpen" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.nio.ch.NativeThreadSet" methodName="remove" methodSignature="(I)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.nio.ch.SharedFileLockTable" methodName="add" methodSignature="(Ljava/nio/channels/FileLock;)V" time="158" count="1" selfTime="115" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="putIfAbsent" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="12" count="1" selfTime="12" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="java.util.concurrent.ConcurrentHashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="9" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.nio.ch.FileKey" methodName="hashCode" methodSignature="()I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="(I)V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.nio.ch.SharedFileLockTable$FileLockReference" methodName="&lt;init&gt;" methodSignature="(Ljava/nio/channels/FileLock;Ljava/lang/ref/ReferenceQueue;Lsun/nio/ch/FileKey;)V" time="7" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.ref.WeakReference" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.nio.ch.SharedFileLockTable" methodName="removeStaleEntries" methodSignature="()V" time="3" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.ref.ReferenceQueue" methodName="poll" methodSignature="()Ljava/lang/ref/Reference;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="false" class="sun.nio.ch.FileDispatcherImpl" methodName="lock" methodSignature="(Ljava/io/FileDescriptor;ZJJZ)I" time="44" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="sun.nio.ch.FileDispatcherImpl" methodName="lock0" methodSignature="(Ljava/io/FileDescriptor;ZJJZ)I" time="43" count="1" selfTime="43" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.nio.ch.FileLockImpl" methodName="&lt;clinit&gt;" methodSignature="()V" time="15" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.nio.ch.FileLockImpl" methodName="&lt;init&gt;" methodSignature="(Ljava/nio/channels/FileChannel;JJZ)V" time="8" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.nio.channels.FileLock" methodName="&lt;init&gt;" methodSignature="(Ljava/nio/channels/FileChannel;JJZ)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="sun.nio.ch.FileChannelImpl" methodName="ensureOpen" methodSignature="()V" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.nio.ch.NativeThreadSet" methodName="add" methodSignature="()I" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.nio.ch.NativeThreadSet" methodName="remove" methodSignature="(I)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.nio.ch.FileChannelImpl" methodName="open" methodSignature="(Ljava/io/FileDescriptor;Ljava/lang/String;ZZLjava/lang/Object;)Ljava/nio/channels/FileChannel;" time="1934" count="1" selfTime="2" lineNumber="-1" percent="0.1">
+    <node leaf="false" class="sun.nio.ch.FileChannelImpl" methodName="&lt;init&gt;" methodSignature="(Ljava/io/FileDescriptor;Ljava/lang/String;ZZZLjava/lang/Object;)V" time="1932" count="1" selfTime="1648" lineNumber="-1" percent="0.1">
+      <node leaf="false" class="sun.nio.ch.FileDispatcherImpl" methodName="&lt;clinit&gt;" methodSignature="()V" time="251" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.nio.ch.FileDispatcherImpl" methodName="isFastFileTransferRequested" methodSignature="()Z" time="238" count="1" selfTime="166" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="47" count="1" selfTime="17" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.nio.ch.FileDispatcherImpl$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="30" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.nio.ch.FileDispatcherImpl$1" methodName="run" methodSignature="()Ljava/lang/String;" time="27" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="18" count="1" selfTime="18" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+          </node>
+          <node leaf="true" class="sun.nio.ch.FileDispatcherImpl$1" methodName="&lt;init&gt;" methodSignature="()V" time="12" count="1" selfTime="12" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.String" methodName="isEmpty" methodSignature="()Z" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.Boolean" methodName="parseBoolean" methodSignature="(Ljava/lang/String;)Z" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="sun.nio.ch.IOUtil" methodName="load" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.nio.ch.NativeThreadSet" methodName="&lt;clinit&gt;" methodSignature="()V" time="12" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.nio.ch.FileDispatcherImpl" methodName="&lt;init&gt;" methodSignature="(Z)V" time="10" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.nio.ch.FileDispatcher" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="sun.nio.ch.NativeDispatcher" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="true" class="sun.nio.ch.NativeThreadSet" methodName="&lt;init&gt;" methodSignature="(I)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.nio.channels.FileChannel" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+    </node>
+  </node>
+  <node leaf="false" class="sun.nio.ch.FileChannelImpl" methodName="&lt;clinit&gt;" methodSignature="()V" time="1339" count="1" selfTime="801" lineNumber="-1" percent="0.1">
+    <node leaf="false" class="sun.nio.ch.IOUtil" methodName="&lt;clinit&gt;" methodSignature="()V" time="502" count="1" selfTime="111" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="277" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.nio.ch.IOUtil$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="272" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.nio.ch.IOUtil$1" methodName="run" methodSignature="()Ljava/lang/Void;" time="269" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.System" methodName="loadLibrary" methodSignature="(Ljava/lang/String;)V" time="263" count="2" selfTime="263" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+      </node>
+      <node leaf="true" class="sun.nio.ch.IOUtil" methodName="initIDs" methodSignature="()V" time="80" count="1" selfTime="80" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.nio.ch.IOUtil" methodName="iovMax" methodSignature="()I" time="24" count="1" selfTime="24" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.nio.ch.IOUtil$1" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="sun.nio.ch.FileChannelImpl" methodName="initIDs" methodSignature="()J" time="29" count="1" selfTime="29" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.management.ManagementFactoryHelper" methodName="getRuntimeMXBean" methodSignature="()Ljava/lang/management/RuntimeMXBean;" time="843" count="2" selfTime="743" lineNumber="-1" percent="0.0">
+    <node leaf="false" class="sun.management.RuntimeImpl" methodName="&lt;init&gt;" methodSignature="(Lsun/management/VMManagement;)V" time="100" count="1" selfTime="16" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="sun.management.VMManagementImpl" methodName="getStartupTime" methodSignature="()J" time="84" count="1" selfTime="84" lineNumber="-1" percent="0.0"/>
+    </node>
+  </node>
+  <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="&lt;clinit&gt;" methodSignature="()V" time="741" count="1" selfTime="68" lineNumber="-1" percent="0.0">
+    <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="480" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="475" count="1" selfTime="373" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="91" count="1" selfTime="17" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="74" count="1" selfTime="35" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/String;" time="39" count="1" selfTime="16" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="23" count="1" selfTime="23" lineNumber="-1" percent="0.0"/>
+            </node>
+          </node>
+        </node>
+        <node leaf="true" class="sun.usagetracker.UsageTrackerClient$1" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="initTrackTime" methodSignature="()Z" time="183" count="1" selfTime="55" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.String" methodName="toLowerCase" methodSignature="()Ljava/lang/String;" time="80" count="1" selfTime="80" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="42" count="2" selfTime="12" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="sun.usagetracker.UsageTrackerClient" methodName="getPropertyPrivileged" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="30" count="2" selfTime="4" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="java.security.AccessController" methodName="doPrivileged" methodSignature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" time="24" count="2" selfTime="7" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/Object;" time="17" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="sun.usagetracker.UsageTrackerClient$1" methodName="run" methodSignature="()Ljava/lang/String;" time="14" count="2" selfTime="5" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" time="9" count="2" selfTime="9" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+          </node>
+          <node leaf="true" class="sun.usagetracker.UsageTrackerClient$1" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;)V" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="true" class="java.lang.String" methodName="startsWith" methodSignature="(Ljava/lang/String;)Z" time="6" count="2" selfTime="6" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="java.util.concurrent.atomic.AtomicBoolean" methodName="&lt;init&gt;" methodSignature="(Z)V" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.net.www.protocol.jar.JarURLConnection" methodName="&lt;clinit&gt;" methodSignature="()V" time="739" count="1" selfTime="718" lineNumber="-1" percent="0.0">
+    <node leaf="false" class="sun.net.www.protocol.jar.JarFileFactory" methodName="&lt;clinit&gt;" methodSignature="()V" time="20" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.Class" methodName="desiredAssertionStatus" methodSignature="()Z" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.HashMap" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="sun.net.www.protocol.jar.JarFileFactory" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="sun.net.www.protocol.jar.JarFileFactory" methodName="getInstance" methodSignature="()Lsun/net/www/protocol/jar/JarFileFactory;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.management.RuntimeImpl" methodName="getInputArguments" methodSignature="()Ljava/util/List;" time="612" count="2" selfTime="402" lineNumber="-1" percent="0.0">
+    <node leaf="false" class="sun.management.Util" methodName="&lt;clinit&gt;" methodSignature="()V" time="116" count="1" selfTime="105" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.management.ManagementPermission" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="11" count="2" selfTime="11" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.management.VMManagementImpl" methodName="getVmArguments" methodSignature="()Ljava/util/List;" time="87" count="2" selfTime="8" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="sun.management.VMManagementImpl" methodName="getVmArguments0" methodSignature="()[Ljava/lang/String;" time="64" count="1" selfTime="64" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.Arrays" methodName="asList" methodSignature="([Ljava/lang/Object;)Ljava/util/List;" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.Collections" methodName="unmodifiableList" methodSignature="(Ljava/util/List;)Ljava/util/List;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="sun.management.Util" methodName="checkMonitorAccess" methodSignature="()V" time="7" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.management.Util" methodName="checkAccess" methodSignature="(Ljava/lang/management/ManagementPermission;)V" time="4" count="2" selfTime="0" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.lang.System" methodName="getSecurityManager" methodSignature="()Ljava/lang/SecurityManager;" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+  </node>
+  <node leaf="false" class="sun.launcher.LauncherHelper" methodName="makePlatformString" methodSignature="(Z[B)Ljava/lang/String;" time="552" count="2" selfTime="11" lineNumber="-1" percent="0.0">
+    <node leaf="true" class="java.lang.String" methodName="&lt;init&gt;" methodSignature="([BLjava/lang/String;)V" time="489" count="2" selfTime="489" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.nio.charset.Charset" methodName="isSupported" methodSignature="(Ljava/lang/String;)Z" time="41" count="1" selfTime="41" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.lang.System" methodName="getProperty" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.launcher.LauncherHelper" methodName="initOutput" methodSignature="(Z)V" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.net.ExtendedSocketOptions" methodName="&lt;clinit&gt;" methodSignature="()V" time="536" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+    <node leaf="false" class="java.lang.Class" methodName="forName" methodSignature="(Ljava/lang/String;)Ljava/lang/Class;" time="530" count="1" selfTime="527" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="sun.net.ExtendedSocketOptions" methodName="register" methodSignature="(Lsun/net/ExtendedSocketOptions;)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+    </node>
+  </node>
+  <node leaf="false" class="sun.nio.ch.FileChannelImpl" methodName="implCloseChannel" methodSignature="()V" time="248" count="1" selfTime="7" lineNumber="-1" percent="0.0">
+    <node leaf="true" class="java.io.Closeable" methodName="close" methodSignature="()V" time="220" count="1" selfTime="220" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="sun.nio.ch.SharedFileLockTable" methodName="removeAll" methodSignature="()Ljava/util/List;" time="16" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.nio.ch.SharedFileLockTable" methodName="removeKeyIfEmpty" methodSignature="(Lsun/nio/ch/FileKey;Ljava/util/List;)V" time="11" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="remove" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.List" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="java.util.Iterator" methodName="hasNext" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.List" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="sun.nio.ch.NativeThreadSet" methodName="signalAndWait" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.nio.ch.FileLockImpl" methodName="release" methodSignature="()V" time="127" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+    <node leaf="false" class="sun.nio.ch.FileChannelImpl" methodName="release" methodSignature="(Lsun/nio/ch/FileLockImpl;)V" time="103" count="1" selfTime="13" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.nio.ch.FileDispatcherImpl" methodName="release" methodSignature="(Ljava/io/FileDescriptor;JJ)V" time="71" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.nio.ch.FileDispatcherImpl" methodName="release0" methodSignature="(Ljava/io/FileDescriptor;JJ)V" time="68" count="1" selfTime="68" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.nio.ch.SharedFileLockTable" methodName="remove" methodSignature="(Ljava/nio/channels/FileLock;)V" time="15" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.List" methodName="remove" methodSignature="(I)Ljava/lang/Object;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.List" methodName="get" methodSignature="(I)Ljava/lang/Object;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.concurrent.ConcurrentHashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="sun.nio.ch.NativeThreadSet" methodName="add" methodSignature="()I" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.nio.ch.NativeThread" methodName="current" methodSignature="()J" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="sun.nio.ch.NativeThreadSet" methodName="remove" methodSignature="(I)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="java.nio.channels.Channel" methodName="isOpen" methodSignature="()Z" time="15" count="1" selfTime="15" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="java.net.URL" methodName="openConnection" methodSignature="()Ljava/net/URLConnection;" time="107" count="4" selfTime="82" lineNumber="-1" percent="0.0">
+    <node leaf="false" class="sun.net.www.URLConnection" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;)V" time="25" count="4" selfTime="8" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="sun.net.www.MessageHeader" methodName="&lt;init&gt;" methodSignature="()V" time="11" count="4" selfTime="7" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="sun.net.www.MessageHeader" methodName="grow" methodSignature="()V" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="java.net.URLConnection" methodName="&lt;init&gt;" methodSignature="(Ljava/net/URL;)V" time="6" count="4" selfTime="6" lineNumber="-1" percent="0.0"/>
+    </node>
+  </node>
+  <node leaf="false" class="sun.launcher.LauncherHelper" methodName="&lt;clinit&gt;" methodSignature="()V" time="58" count="1" selfTime="26" lineNumber="-1" percent="0.0">
+    <node leaf="false" class="sun.launcher.LauncherHelper" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="14" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.Enum" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="sun.misc.VM" methodName="getSavedProperty" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.lang.ClassLoader" methodName="getSystemClassLoader" methodSignature="()Ljava/lang/ClassLoader;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream" methodName="close" methodSignature="()V" time="57" count="4" selfTime="20" lineNumber="-1" percent="0.0">
+    <node leaf="true" class="java.io.FilterInputStream" methodName="close" methodSignature="()V" time="28" count="4" selfTime="28" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="sun.net.www.protocol.jar.JarURLConnection" methodName="getUseCaches" methodSignature="()Z" time="9" count="4" selfTime="6" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.net.URLConnection" methodName="getUseCaches" methodSignature="()Z" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+    </node>
+  </node>
+  <node leaf="true" class="sun.util.locale.provider.JRELocaleProviderAdapter" methodName="getDecimalFormatSymbolsProvider" methodSignature="()Ljava/text/spi/DecimalFormatSymbolsProvider;" time="6" count="16" selfTime="6" lineNumber="-1" percent="0.0"/>
+  <node leaf="true" class="sun.net.ExtendedSocketOptions" methodName="clientSocketOptions" methodSignature="()Ljava/util/Set;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+  <node leaf="false" class="sun.net.www.protocol.jar.JarURLConnection" methodName="getJarFile" methodSignature="()Ljava/util/jar/JarFile;" time="4" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+    <node leaf="true" class="sun.net.www.protocol.jar.JarURLConnection" methodName="connect" methodSignature="()V" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="true" class="sun.net.NetHooks" methodName="beforeTcpBind" methodSignature="(Ljava/io/FileDescriptor;Ljava/net/InetAddress;I)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+  <node leaf="false" class="sun.net.ExtendedSocketOptions" methodName="serverSocketOptions" methodSignature="()Ljava/util/Set;" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+    <node leaf="true" class="sun.net.ExtendedSocketOptions" methodName="options0" methodSignature="(SZ)Ljava/util/Set;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="true" class="sun.launcher.LauncherHelper" methodName="getApplicationClass" methodSignature="()Ljava/lang/Class;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  <node leaf="true" class="sun.net.ExtendedSocketOptions" methodName="getInstance" methodSignature="()Lsun/net/ExtendedSocketOptions;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+</tree>
