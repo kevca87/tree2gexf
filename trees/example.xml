@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree type="Call Tree" threadSelection="All thread groups" threadStatus="All states" aggregationLevel="Methods">
+  <node leaf="false" class="org.openjdk.jmh.util.InputStreamDrainer" methodName="run" methodSignature="()V" time="173827507" count="76" selfTime="867" lineNumber="-1" percent="40.5">
+    <node leaf="true" class="java.io.InputStream" methodName="read" methodSignature="([B)I" time="173820418" count="76" selfTime="173820418" lineNumber="-1" percent="40.5"/>
+    <node leaf="true" class="java.io.InputStream" methodName="close" methodSignature="()V" time="5425" count="76" selfTime="5425" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.List" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="451" count="76" selfTime="451" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.Iterator" methodName="hasNext" methodSignature="()Z" time="132" count="228" selfTime="132" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.io.OutputStream" methodName="flush" methodSignature="()V" time="111" count="152" selfTime="111" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="java.util.Iterator" methodName="next" methodSignature="()Ljava/lang/Object;" time="103" count="152" selfTime="103" lineNumber="-1" percent="0.0"/>
+  </node>
+</tree>
